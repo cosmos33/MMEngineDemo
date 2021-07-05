@@ -152,4 +152,4 @@
 
 3. 游戏示例
 
-![yakyuu](/Users/hongjiefu/projects/EngineDemo/yakyuu.jpg)
+![yakyuu](https://github.com/cosmos33/MMEngineDemo/blob/master/yakyuu.jpg)
