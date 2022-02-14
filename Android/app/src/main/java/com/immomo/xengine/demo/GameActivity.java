@@ -45,7 +45,8 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
     @Override
     public void onStart(IXEngine engine) {
         engine.getLogger().setLogEnable(true);
-        engine.addLibraryPath("/sdcard/demo");
+
+        engine.addLibraryPath(getExternalFilesDir("") + "/demo");
         engine.getScriptBridge().regist(gameHandler, "GameHandler");
         engine.getScriptEngine().startGameScriptFile("app");
     }

@@ -2,7 +2,7 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.1"
@@ -15,14 +15,8 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
         mavenCentral()
     }
-    repositories {
-        maven { url 'https://cosmos1602.bintray.com/cosmos/' }//陌陌对外仓库
-        maven { url 'https://cosmos1602.bintray.com/mediax/' }//陌陌对外仓库
-    }
-
 }
 
 task clean(type: Delete) {
