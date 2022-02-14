@@ -16,6 +16,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
     repositories {
         maven { url 'https://cosmos1602.bintray.com/cosmos/' }//陌陌对外仓库

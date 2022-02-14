@@ -1,22 +1,17 @@
-package com.example.xengine;
+package com.immomo.xengine.demo;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import com.momo.xeengine.XE3DEngine;
-import com.momo.xeengine.game.XEGameView;
-import com.momo.xeengine.game.XEGameViewCallback;
-import com.momo.xeengine.script.ScriptBridge;
+import com.momo.xeengine.XEnginePreferences;
 
-public class MainActivity extends AppCompatActivity {
+public final class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_EXTERNAL_STORAGE = 1;
     private static String[] PERMISSIONS_STORAGE = {
@@ -44,8 +39,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //设置引擎的上下文
+        XEnginePreferences.setApplicationContext(this.getApplicationContext());
+        //设置引擎license 与包名绑定，请联系陌陌获得。
+        XEnginePreferences.setLicense("OjkAHm4HIlGJQc0OL+mtBqDdho7DB8OuLmBwSLaBTncpR3BX3+tjJvX14pWFkfTIty9mIT+bF6O49HQUVYWD6vpWM6rKEqXzCNO9++1YD/hvinWqdoXv41mrLAfU7UgD7W8mXhJgVLdyMwkPOhehZ6kpRIIhzvIeiJdL1j7M00E=");
         verifyStoragePermissions(this);
-
 
     }
 

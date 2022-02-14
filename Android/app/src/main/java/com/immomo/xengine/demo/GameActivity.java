@@ -1,71 +1,60 @@
-package com.example.xengine;
+package com.immomo.xengine.demo;
 
-import android.app.Activity;
 import android.content.DialogInterface;
-import android.content.pm.PackageManager;
-import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.view.SurfaceView;
+import android.view.TextureView;
 import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
-import com.momo.xeengine.XE3DEngine;
+import com.momo.xeengine.IXEngine;
+import com.momo.xeengine.game.IXGameView;
 import com.momo.xeengine.game.XEGameView;
-import com.momo.xeengine.game.XEGameViewCallback;
 import com.momo.xeengine.script.ScriptBridge;
 
-public class GameActivity extends AppCompatActivity implements XEGameViewCallback {
+public final class GameActivity extends AppCompatActivity implements IXGameView.Callback {
 
     private static final int REQUEST_EXTERNAL_STORAGE = 1;
     private static String[] PERMISSIONS_STORAGE = {
             "android.permission.READ_EXTERNAL_STORAGE",
             "android.permission.WRITE_EXTERNAL_STORAGE"};
 
-
-    public static void verifyStoragePermissions(Activity activity) {
-
-        try {
-            //检测是否有写的权限
-            int permission = ActivityCompat.checkSelfPermission(activity,
-                    "android.permission.WRITE_EXTERNAL_STORAGE");
-            if (permission != PackageManager.PERMISSION_GRANTED) {
-                // 没有写的权限，去申请写的权限，会弹出对话框
-                ActivityCompat.requestPermissions(activity, PERMISSIONS_STORAGE, REQUEST_EXTERNAL_STORAGE);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     private XEGameView gameView;
+    private GameHandler gameHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-        verifyStoragePermissions(this);
-        XE3DEngine.setApplicationContext(this);
+        gameHandler = new GameHandler(this);
         gameView = findViewById(R.id.gameView);
+        gameView.setRenderViewType(XEGameView.TYPE_TEXTURE_VIEW);
+        gameView.setRenderScale(1.f);
+        gameView.setPreferredFramesPerSecond(30);
         gameView.setCallback(this);
-        gameView.startGame();
+        gameView.start();
     }
 
     //渲染视图创建回调
     @Override
     public void onRenderViewCreate(View view) {
-        GLSurfaceView renderView = (GLSurfaceView) view;
+        if (view instanceof SurfaceView) {
+            SurfaceView renderView = (SurfaceView) view;
+        } else if (view instanceof TextureView) {
+            TextureView renderView = (TextureView) view;
+        }
         //do something if needed
     }
 
     //引擎启动回调
     @Override
-    public void onStart(XE3DEngine engine) {
+    public void onStart(IXEngine engine) {
         engine.getLogger().setLogEnable(true);
         engine.addLibraryPath("/sdcard/demo");
-        engine.getScriptBridge().regist(this, "GameHandler");
+        engine.getScriptBridge().regist(gameHandler, "GameHandler");
         engine.getScriptEngine().startGameScriptFile("app");
     }
 
@@ -75,14 +64,15 @@ public class GameActivity extends AppCompatActivity implements XEGameViewCallbac
     //2. 如果有so打包时排出，改为运行时下载的场景。可能为so下载失败。或so版本与客户端不匹配
     @Override
     public void onStartFailed(String errorMsg) {
-        Toast.makeText(this, "引擎启动失败 " + errorMsg, Toast.LENGTH_LONG).show();
-        finish();
+        runOnUiThread(() -> {
+            Toast.makeText(this, "引擎启动失败 " + errorMsg, Toast.LENGTH_LONG).show();
+//        finish();
+        });
 
     }
 
-    //渲染尺寸改变回调
     @Override
-    public void onRenderSizeChaged(int width, int height) {
+    public void onRenderSizeChanged(int i, int i1) {
 
     }
 
