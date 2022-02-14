@@ -1,26 +1,18 @@
 package com.immomo.xengine.demo;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.momo.xeengine.IXEngine;
 import com.momo.xeengine.game.IXGameView;
 import com.momo.xeengine.game.XEGameView;
-import com.momo.xeengine.script.ScriptBridge;
 
 public final class GameActivity extends AppCompatActivity implements IXGameView.Callback {
-
-    private static final int REQUEST_EXTERNAL_STORAGE = 1;
-    private static String[] PERMISSIONS_STORAGE = {
-            "android.permission.READ_EXTERNAL_STORAGE",
-            "android.permission.WRITE_EXTERNAL_STORAGE"};
 
     private XEGameView gameView;
     private GameHandler gameHandler;
@@ -80,25 +72,5 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
     @Override
     public void onEngineDynamicLinkLibraryDownloadProcess(int percent, double speed) {
 
-    }
-
-    //同步Bridge方法
-    public String onGameOver(String arg) {
-        runOnUiThread(() -> {
-
-            AlertDialog alert = new AlertDialog.Builder(GameActivity.this).create();
-            alert.setTitle("游戏结束");
-            alert.setMessage(arg);
-
-            //添加"确定"按钮
-            alert.setButton(DialogInterface.BUTTON_POSITIVE, "是的", (arg0, arg1) -> finish());
-            alert.show();
-        });
-        return null;
-    }
-
-    //异步Bridge方法
-    public void func2(String arg, ScriptBridge.Callback callback) {
-        callback.call("Java异步回调");
     }
 }

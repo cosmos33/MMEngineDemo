@@ -6,10 +6,8 @@
 //
 
 #import "GameViewController.h"
-#import <MMXEngine/XSKEngine.h>
-#import <MMXEngine/XSKEngine+Lua.h>
-#import <MMXEngine/XEGameView.h>
-#import <MMXEngine/XSKScriptBridge.h>
+
+#import <XESceneKit/XESceneKit.h>
 
 @interface GameViewController () <XEGameViewDelegate>
 
@@ -41,6 +39,7 @@
     [engine addLibraryPath:path];
     //为游戏Lua脚本注册原生bridge功能（非必需）
     [engine.scriptBridge regist:self forHandler:@"GameHandler"];
+    
     //执行游戏启动脚本
     [engine execteGameScriptFile:@"app"];
 }
@@ -54,13 +53,13 @@
 
 //同步Bridge方法
 XE_BBRIDGE_METHOD(onGameOver) {
-    
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
-    [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [self dismissViewControllerAnimated:YES completion:nil];
-    }]];
-    [self presentViewController:alert animated:true completion:nil];
-    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }]];
+        [self presentViewController:alert animated:true completion:nil];
+    });
     return nil;
 }
 

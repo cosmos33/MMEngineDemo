@@ -8,5 +8,11 @@ install! 'cocoapods',
 :generate_multiple_pod_projects => true
 
 target 'EngineDemoiOS' do
-  pod 'MMXEngine', '4.4.7.20210125.1445'
+  pod 'MMXEngineBase',    '4.5.1.ssl'           #必要
+  pod 'XESceneKit',       '4.5.1.20211025.1123' #必要
+
+  pod 'XEngineAudio',     '4.5.1.20211025.1123' #可选
+  pod 'XEngineLua',       '4.5.1.20211025.1123' #可选
+  pod 'XEnginePhysics',   '4.5.1.20211025.1123' #可选
+  pod 'XEngineUI',        '4.5.1.20211025.1123' #可选
 end

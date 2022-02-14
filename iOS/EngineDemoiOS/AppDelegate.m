@@ -7,6 +7,12 @@
 
 #import "AppDelegate.h"
 
+#import <XEngineLua/XEngineLuaModule.h>
+#import <XEngineAudio/XEngineAudioModule.h>
+#import <XEnginePhysics/XEnginePhysicsModule.h>
+#import <XEngineUI/XEngineUIModule.h>
+#import <XESceneKit/XESceneKit.h>
+
 @interface AppDelegate ()
 
 @end
@@ -16,6 +22,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    XEngineUseUIModule();
+    XEngineUseLuaModule();
+    XEngineUseAudioModule();
+    XEngineUsePhysicsModule();
+    
+    [[XEnginePreferences shareInstance] setLicense:@"OjkAHm4HIlGJQc0OL+mtBqDdho7DB8OuLmBwSLaBTncpR3BX3+tjJvX14pWFkfTIty9mIT+bF6O49HQUVYWD6vpWM6rKEqXzCNO9++1YD/hvinWqdoXv41mrLAfU7UgD7W8mXhJgVLdyMwkPOhehZ6kpRIIhzvIeiJdL1j7M00E="];
     return YES;
 }
 
@@ -23,7 +35,9 @@
 #pragma mark - UISceneSession lifecycle
 
 
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
+- (UISceneConfiguration *)application:(UIApplication *)application
+configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession
+                              options:(UISceneConnectionOptions *)options {
     // Called when a new scene session is being created.
     // Use this method to select a configuration to create the new scene with.
     return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
