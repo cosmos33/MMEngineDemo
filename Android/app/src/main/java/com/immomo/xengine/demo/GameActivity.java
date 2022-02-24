@@ -16,12 +16,15 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
 
     private XEGameView gameView;
     private GameHandler gameHandler;
+    private RTCHandler rtcHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         gameHandler = new GameHandler(this);
+        rtcHandler = new RTCHandler(this);
+
         gameView = findViewById(R.id.gameView);
         gameView.setRenderViewType(XEGameView.TYPE_TEXTURE_VIEW);
         gameView.setRenderScale(1.f);
@@ -47,6 +50,7 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
         engine.getLogger().setLogEnable(true);
         engine.addLibraryPath("/sdcard/demo");
         engine.getScriptBridge().regist(gameHandler, "GameHandler");
+        engine.getScriptBridge().regist(rtcHandler, "RTCHandler");
         engine.getScriptEngine().startGameScriptFile("app");
     }
 

@@ -1,11 +1,13 @@
 
 require("Asset.Scripts.native.init")
+require("Asset.Scripts.native.QNRTCHandler")
+
 local GameMainScene = require("Asset.Scripts.BaseballScene")
 package.loaded["Asset.Scripts.BaseballGlobal"]  = nil
 
 
 function ONLINE_LOG(log)
-    print(tostring(os.time()) ..  "  LOG:  " .. tostring(log))
+    print(tostring(os.time()) ..  "hk --  LOG:  " .. tostring(log))
 end
 
 
@@ -22,24 +24,63 @@ function App.onStart()
     App.mainScene = scene
     xe.Director:GetInstance():PushScene(scene)
 
+    QNRTCHandler:init(function(msg)
+        ONLINE_LOG(msg)
+        local event = XEJSON.decode(msg)
+
+        local switch = {
+            ["onConnectionStateChanged"] = function()
+                if event.connectionState == "CONNECTED" then
+                    QNRTCHandler:publishAudio()
+                end
+            end;
+
+            ["onUserPublished"] = function()
+                ONLINE_LOG("onUserPublished - " .. "remoteUserID : " .. event.remoteUserID .. " audioTrackIDList : " .. event.audioTrackIDList)
+                QNRTCHandler:subscribeAudio(event.audioTrackIDList)
+            end;
+
+            ["onUserUnpublished"] = function()
+                ONLINE_LOG("onUserPublished - " .. "remoteUserID : " .. event.remoteUserID .. " audioTrackIDList : " .. event.audioTrackIDList)
+            end;
+
+            ["onSubscribed"] = function()
+                ONLINE_LOG("onSubscribed - " .. "remoteUserID : " .. event.remoteUserID .. " audioTrackIDList : " .. event.audioTrackIDList)
+                QNRTCHandler:setRemoteVolume(event.audioTrackIDList[0], 2.0)
+            end;
+
+            ["onUserJoined"] = function()
+                local remoteUserID = event.remoteUserID
+                local userData = event.userData
+                ONLINE_LOG("onUserJoined - " .. "remoteUserID : " .. event.remoteUserID .. " userData" .. event.userData)
+            end;
+
+            ["onUserLeft"] = function()
+                local remoteUserID = event.remoteUserID
+                ONLINE_LOG("onUserLeft - " .. "remoteUserID : " .. event.remoteUserID)
+            end
+        }
+
+        local fun = switch[event.eventName]
+        if(fun) then
+            fun()
+        else
+            ONLINE_LOG("33333")
+        end
+    end
+    );
+
+    QNRTCHandler:join();
 
     scene:SetGameOverCallBack(function(score)
 
         ONLINE_LOG("Romve Self.")
 
-        
         local ret = {
             score = score
         }
 
         xe.ScriptBridge:call("GameHandler", "onGameOver", xjson.encode(ret))
-
-        -- if xe.Director:GetInstance():GetTopScene() == App.mainScene then
-        --     ONLINE_LOG("PopScene")
-        --     App.mainScene = nil
-        --     xe.Director:GetInstance():PopScene()
-        -- end
-        -- NativeHandler:removeGame(tostring(score))
     end)
 end
 
@@ -54,6 +95,5 @@ end
 function App.onEnd()
     ONLINE_LOG("onEnd")
 end
-
 
 xe.AppDeleggate = App

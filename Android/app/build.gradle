@@ -27,6 +27,11 @@ android {
     }
 }
 
+exec {
+    workingDir '../'
+    commandLine './push_res.sh'
+}
+
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -37,4 +42,8 @@ dependencies {
     implementation 'com.immomo.xengine:xeengine_android:4.5.1.20211025.1449'
     implementation 'com.immomo.xengine:xeengine:4.5.1.20211025.1449'
 
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.qiniu:happy-dns:0.2.17'
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 }
