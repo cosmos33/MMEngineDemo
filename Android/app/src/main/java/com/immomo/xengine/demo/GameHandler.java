@@ -11,9 +11,9 @@ public final class GameHandler {
         this.activity = activity;
     }
 
-    public String onGameOver(String msg) {
+    public String removeGame(String msg) {
         activity.runOnUiThread(() -> {
-            Toast.makeText(activity, "onGameOver:" + msg, Toast.LENGTH_SHORT).show();
+            Toast.makeText(activity, "removeGame:" + msg, Toast.LENGTH_SHORT).show();
         });
         return null;
     }

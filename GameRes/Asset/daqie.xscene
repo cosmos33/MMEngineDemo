@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="GB2312"?>
 <Scene SceneVer="1.3" SceneType="facetrack" ViewportColor="0" LevelName="DefaultLevel" Present="1">
- <SceneCamera CameraType="Perspective" FOV="0.78539801" ZNear="10" ZFar="400" Location="6.925423,47.099983,-294.678680" Dir="-0.040145,-0.001747,0.999192" Up="-0.000070,0.999999,0.001745"/>
+ <SceneCamera CameraType="Perspective" FOV="0.78539801" ZNear="10" ZFar="400" Location="6.925417,47.099979,-294.678650" Dir="-0.071496,0.020941,0.997221" Up="0.001498,0.999781,-0.020887"/>
  <DetectParams>
 	<DetectParam TypeDesc="segmentaion.enable">
 	 <VariantData Type="XVT_BOOL" Value="1"/>
@@ -141,7 +141,7 @@
  </Actor>
  <Actor Name="front_camera" IdString="060e452f08800005" Type="CameraActor" FilterPath="/system/" Hidden="0" PickMask="3" PickPriority="0" DrawDebug="2" CollisionChannel="CameraActor" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
 	<ExtendParam Name="CameraShowType" ShowTypeMask="3"/>
-	<Component Type="CameraComponent" Index="1" Location="-25.717537,89.328438,-317.445801" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" CameraType="Perspective" FOV="0.78539801" ZNear="10" ZFar="400" ActiveCamera="1"/>
+	<Component Type="CameraComponent" Index="1" Location="-25.717537,89.328438,-317.445801" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" CameraType="Perspective" FOV="0.78539801" ZNear="0.1" ZFar="500" ActiveCamera="1"/>
  </Actor>
  <Actor Name="back_camera" IdString="060e452f08800006" Type="CameraActor" FilterPath="/system/" Hidden="0" PickMask="3" PickPriority="0" DrawDebug="2" CollisionChannel="CameraActor" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
 	<ExtendParam Name="CameraShowType" ShowTypeMask="3"/>
@@ -181,15 +181,15 @@
 	 <Component Type="ChildActorComponent" Index="3" Location="-0.707104,-0.000292,0.000135" Rotation="0.000000,0.000000,0.707064,0.707150" Scale="0.999981,0.999991,0.999981" ActorGuest="Atmosphere04_HeadFx_2_1" ActorGuestId="0617241ac8000000" AttachmentFollowRule="511"/>
 	</Component>
  </Actor>
+ <Actor Name="Atmosphere04_HeadFx_2" IdString="061380f769400000" Type="AnimationMeshActor" FilterPath="/custom/Baseball_Actor:actor/" Hidden="1" PickMask="3" PickPriority="0" DrawDebug="0" CollisionChannel="AnimationMeshActor" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<ExtendParam Name="UsedAsPlayer" IsUsedAsPlayer="0" CucolorisColor="0.000000,0.000000,0.000000,1.000000"/>
+	<Component Type="AnimatableModelComponent" Index="1" Location="-5.303281,126.873413,-42.155586" Rotation="0.000000,0.000000,0.707064,0.707150" Scale="7.499856,7.499930,7.499856" AssetPath="Asset/Public/Atmosphere04_HeadFx/Atmosphere04_HeadFx.mdl"/>
+ </Actor>
  <Actor Name="Atmosphere04_HeadFx_2_1" IdString="0617241ac8000000" Type="AnimationMeshActor" FilterPath="/custom/Baseball_Actor:actor/" Hidden="1" PickMask="3" PickPriority="0" DrawDebug="0" CollisionChannel="AnimationMeshActor" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
 	<ExtendParam Name="UsedAsPlayer" IsUsedAsPlayer="0" CucolorisColor="0.000000,0.000000,0.000000,1.000000"/>
 	<Component Type="AnimatableModelComponent" Index="1" Location="-5.303281,126.873413,-42.155586" Rotation="0.000000,0.000000,0.707064,0.707150" Scale="7.499856,7.499930,7.499856" AssetPath="Asset/Public/Atmosphere04_HeadFx/Atmosphere04_HeadFx.mdl">
 	 <Material SkinName="Asset/Public/Atmosphere04_HeadFx/Atmosphere04_HeadFx" LodId="0" MeshName="Atmosphere04_HeadFx" MaterialFile="Asset/Public/Atmosphere04_HeadFx/Atmosphere04_HeadFx_Atmosphere04_HeadFx_m_2"/>
 	</Component>
- </Actor>
- <Actor Name="Atmosphere04_HeadFx_2" IdString="061380f769400000" Type="AnimationMeshActor" FilterPath="/custom/Baseball_Actor:actor/" Hidden="1" PickMask="3" PickPriority="0" DrawDebug="0" CollisionChannel="AnimationMeshActor" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
-	<ExtendParam Name="UsedAsPlayer" IsUsedAsPlayer="0" CucolorisColor="0.000000,0.000000,0.000000,1.000000"/>
-	<Component Type="AnimatableModelComponent" Index="1" Location="-5.303281,126.873413,-42.155586" Rotation="0.000000,0.000000,0.707064,0.707150" Scale="7.499856,7.499930,7.499856" AssetPath="Asset/Public/Atmosphere04_HeadFx/Atmosphere04_HeadFx.mdl"/>
  </Actor>
  <Actor Name="EmptyActor_1" IdString="060e452f0880000c" Type="EmptyActor" FilterPath="/custom/" Hidden="0" PickMask="3" PickPriority="0" DrawDebug="2" CollisionChannel="EmptyActor" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
 	<ExtendParam Name="CameraShowType" ShowTypeMask="3"/>

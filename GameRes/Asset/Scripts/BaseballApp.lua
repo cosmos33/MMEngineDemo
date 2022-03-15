@@ -1,18 +1,24 @@
-
 require("Asset.Scripts.native.init")
 local GameMainScene = require("Asset.Scripts.BaseballScene")
-package.loaded["Asset.Scripts.BaseballGlobal"]  = nil
-
+package.loaded["Asset.Scripts.BaseballGlobal"] = nil
 
 function ONLINE_LOG(log)
-    print(tostring(os.time()) ..  "  LOG:  " .. tostring(log))
+    print(tostring(os.time()) .. "  LOG:  " .. tostring(log))
 end
-
 
 local App = {}
 
-
-function App.onStart()
+_G_GameConfig = {coefficient = 1.2}
+function App.onStart(config)
+    if config then
+        local configObj = xjson.decode(config)
+        if configObj.coefficient then
+            _G_GameConfig.coefficient = configObj.coefficient
+        end
+        if configObj.language then
+            I18N:SetLanguage(configObj.language)
+        end
+    end
     ONLINE_LOG("onStart")
     if App.mainScene then
         return
@@ -22,25 +28,18 @@ function App.onStart()
     App.mainScene = scene
     xe.Director:GetInstance():PushScene(scene)
 
+    scene:SetGameOverCallBack(
+        function(score)
+            ONLINE_LOG("Romve Self.")
 
-    scene:SetGameOverCallBack(function(score)
-
-        ONLINE_LOG("Romve Self.")
-
-        
-        local ret = {
-            score = score
-        }
-
-        xe.ScriptBridge:call("GameHandler", "onGameOver", xjson.encode(ret))
-
-        -- if xe.Director:GetInstance():GetTopScene() == App.mainScene then
-        --     ONLINE_LOG("PopScene")
-        --     App.mainScene = nil
-        --     xe.Director:GetInstance():PopScene()
-        -- end
-        -- NativeHandler:removeGame(tostring(score))
-    end)
+            if xe.Director:GetInstance():GetTopScene() == App.mainScene then
+                ONLINE_LOG("PopScene")
+                App.mainScene = nil
+                xe.Director:GetInstance():PopScene()
+            end
+            NativeHandler:removeGame(xjson.encode({score = score}))
+        end
+    )
 end
 
 function App.onResume()
@@ -55,5 +54,4 @@ function App.onEnd()
     ONLINE_LOG("onEnd")
 end
 
-
-xe.AppDeleggate = App
+xe.AppDelegate = App

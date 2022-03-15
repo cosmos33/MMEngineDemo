@@ -47,7 +47,7 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
         engine.getLogger().setLogEnable(true);
 
         engine.addLibraryPath(getExternalFilesDir("") + "/demo");
-        engine.getScriptBridge().regist(gameHandler, "GameHandler");
+        engine.getScriptBridge().regist(gameHandler, "LiveGameHandler");
         engine.getScriptEngine().startGameScriptFile("app");
     }
 
@@ -59,7 +59,6 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
     public void onStartFailed(String errorMsg) {
         runOnUiThread(() -> {
             Toast.makeText(this, "引擎启动失败 " + errorMsg, Toast.LENGTH_LONG).show();
-//        finish();
         });
 
     }
