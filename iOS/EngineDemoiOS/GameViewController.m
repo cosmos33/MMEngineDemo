@@ -38,7 +38,7 @@
     NSString *path = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/GameRes"];
     [engine addLibraryPath:path];
     //为游戏Lua脚本注册原生bridge功能（非必需）
-    [engine.scriptBridge regist:self forHandler:@"GameHandler"];
+    [engine.scriptBridge regist:self forHandler:@"LiveGameHandler"];
     
     //执行游戏启动脚本
     [engine execteGameScriptFile:@"app"];
@@ -52,7 +52,7 @@
 }
 
 //同步Bridge方法
-XE_BBRIDGE_METHOD(onGameOver) {
+XE_BBRIDGE_METHOD(removeGame) {
     dispatch_async(dispatch_get_main_queue(), ^{
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
         [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
