@@ -1,7 +1,6 @@
 package com.immomo.xengine.rtc.model;
 
 import com.qiniu.droid.rtc.QNRemoteAudioTrack;
-import com.qiniu.droid.rtc.QNRemoteTrack;
 
 import java.util.ArrayList;
 import java.util.List;
