@@ -1,5 +1,7 @@
 QNRTCHandler = QNRTCHandler or {}
 
+-- 官方文档
+-- https://developer.qiniu.com/rtc/8802/pd-overview
 
 -- 初始化 RTC
 function QNRTCHandler:init( rtcEvent) 

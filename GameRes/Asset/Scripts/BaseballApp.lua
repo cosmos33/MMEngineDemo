@@ -2,6 +2,7 @@
 require("Asset.Scripts.native.init")
 require("Asset.Scripts.native.QNRTCHandler")
 
+-- https://developer.qiniu.com/rtc/8813/roomToken 获取 roomToken
 ROOM_TOKEN = "QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:zyoqWqariEh5-cHGT-cxkvakB7Y=:eyJhcHBJZCI6ImQ4bGs3bDRlZCIsImV4cGlyZUF0IjoxNjQ4NzE3NzA0LCJwZXJtaXNzaW9uIjoidXNlciIsInJvb21OYW1lIjoibW1zZGsiLCJ1c2VySWQiOiJsdWEifQ=="
 
 local GameMainScene = require("Asset.Scripts.BaseballScene")
@@ -49,6 +50,9 @@ function App.onStart()
             ["onUserPublished"] = function()
                 ONLINE_LOG("onUserPublished - " .. "remoteUserID : " .. event.remoteUserID .. " audioTrackID : " .. event.audioTrackID)
                 local trackIDList = {event.audioTrackID}
+
+                -- 因为已经调用了 QNRTCHandler:setAutoSubscribe(false)
+                -- 所以需要手动订阅。否则默认订阅房间内每一路流
                 QNRTCHandler:subscribeAudio(trackIDList)
             end;
 
@@ -101,10 +105,10 @@ function App.onStart()
     end
     );
 
-    QNRTCHandler:setAutoSubscribe(false);
+    QNRTCHandler:setAutoSubscribe(false)
 
     --加入房间
-    QNRTCHandler:join(ROOM_TOKEN);
+    QNRTCHandler:join(ROOM_TOKEN)
 
     scene:SetGameOverCallBack(function(score)
         ONLINE_LOG("Romve Self.")
