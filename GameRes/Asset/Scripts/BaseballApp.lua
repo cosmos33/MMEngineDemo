@@ -8,7 +8,7 @@ local GameMainScene = require("Asset.Scripts.BaseballScene")
 package.loaded["Asset.Scripts.BaseballGlobal"]  = nil
 
 function ONLINE_LOG(log)
-    print(tostring(os.time()) ..  "hk --  LOG:  " .. tostring(log))
+    print(tostring(os.time()) ..  "LOG:  " .. tostring(log))
 end
 
 local App = {}
@@ -101,6 +101,8 @@ function App.onStart()
     end
     );
 
+    QNRTCHandler:setAutoSubscribe(false);
+
     --加入房间
     QNRTCHandler:join(ROOM_TOKEN);
 
@@ -123,8 +125,7 @@ end
 
 function App.onEnd()
     ONLINE_LOG("onEnd")
-    --引擎反初始化
-    QNRTCHandler:deinit()
+    -- QNRTCHandler:deinit();
 end
 
 xe.AppDeleggate = App

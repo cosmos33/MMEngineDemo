@@ -35,7 +35,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public final class RTCHandler {
-    private static final String TAG = "RTCHandler : hk --  LOG";
+    private static final String TAG = "RTCHandler : LOG";
 
     private Activity activity;
     private QNRTCClient client;
@@ -160,11 +160,29 @@ public final class RTCHandler {
 
     public void join(String token) {
         Log.i(TAG, "join : " + token);
+        if (client == null) {
+            Log.e(TAG,"no init! you must call init first!");
+            return;
+        }
         client.join(token);
+    }
+
+    public void setAutoSubscribe(String autoSubscribe) {
+        Log.i(TAG, "setAutoSubscribe : " + autoSubscribe);
+        if (client == null) {
+            Log.e(TAG,"no init! you must call init first!");
+            return;
+        }
+        boolean autoSubscribeBool = "true".equals(autoSubscribe);
+        client.setAutoSubscribe(autoSubscribeBool);
     }
 
     public void publishAudio(String message) {
         Log.i(TAG, "publishAudio - MicrophoneAudioTrack !");
+        if (client == null) {
+            Log.e(TAG,"no init! you must call init first!");
+            return;
+        }
         if (microphoneAudioTrack == null) {
             microphoneAudioTrack = QNRTC.createMicrophoneAudioTrack();
         }
@@ -173,6 +191,10 @@ public final class RTCHandler {
 
     public void unpublishAudio(String message) {
         Log.i(TAG, "unpublishAudio : " + message);
+        if (client == null) {
+            Log.e(TAG,"no init! you must call init first!");
+            return;
+        }
         if (microphoneAudioTrack == null) {
             Log.e(TAG, "error : no microphoneAudioTrack to unpublished !");
             return;
@@ -180,7 +202,8 @@ public final class RTCHandler {
         client.unpublish(microphoneAudioTrack);
     }
 
-    public void deinit() {
+    public void deinit(String message) {
+        Log.i(TAG, "deinit !");
         microphoneAudioTrack = null;
         client = null;
         remoteAudioUsers.clear();
@@ -189,6 +212,10 @@ public final class RTCHandler {
 
     public void subscribeAudio(String trackIDs) {
         Log.i(TAG, "subscribeAudio : " + trackIDs);
+        if (client == null) {
+            Log.e(TAG,"no init! you must call init first!");
+            return;
+        }
         Gson gson = new Gson();
         String[] trackIDArray = gson.fromJson(trackIDs, String[].class);
         Log.i(TAG, "subscribeAudio : find track11 : " + trackIDs.toString());
@@ -200,6 +227,10 @@ public final class RTCHandler {
 
     public void unsubscribeAudio(String trackIDs) {
         Log.i(TAG, "unsubscribeAudio : " + trackIDs);
+        if (client == null) {
+            Log.e(TAG,"no init! you must call init first!");
+            return;
+        }
         Gson gson = new Gson();
         String[] trackIDArray = gson.fromJson(trackIDs, String[].class);
         List<QNRemoteTrack> tracks = findTracksByIDs(trackIDArray);
@@ -207,7 +238,9 @@ public final class RTCHandler {
     }
 
     public void leave(String msg) {
+        Log.i(TAG, "leave ! ");
         if (client == null) {
+            Log.e(TAG,"no init! you must call init first!");
             return;
         }
         client.leave();

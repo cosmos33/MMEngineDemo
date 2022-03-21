@@ -71,6 +71,10 @@ function QNRTCHandler:getTrackIDByUser(remoteUserID)
     return xe.ScriptBridge:call("RTCHandler", "getTrackID", remoteUserID)
 end
 
+function QNRTCHandler:setAutoSubscribe(autoSubscribe)
+    xe.ScriptBridge:call("RTCHandler", "setAutoSubscribe", xjson.encode(autoSubscribe))
+end
+
 -- 销毁 QNRTC
 function QNRTCHandler:deinit()
     xe.ScriptBridge:call("RTCHandler", "deinit", "")
