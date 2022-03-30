@@ -38,13 +38,19 @@ public final class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_list);
         //设置引擎的上下文
         XEnginePreferences.setApplicationContext(this.getApplicationContext());
         //设置引擎license 与包名绑定，请联系陌陌获得。
         XEnginePreferences.setLicense("OjkAHm4HIlGJQc0OL+mtBqDdho7DB8OuLmBwSLaBTncpR3BX3+tjJvX14pWFkfTIty9mIT+bF6O49HQUVYWD6vpWM6rKEqXzCNO9++1YD/hvinWqdoXv41mrLAfU7UgD7W8mXhJgVLdyMwkPOhehZ6kpRIIhzvIeiJdL1j7M00E=");
         verifyStoragePermissions(this);
 
+    }
+
+
+    public void playRocket(View v) {
+        Intent intent = new Intent(this, RocketDemoActivity.class);
+        startActivity(intent);
     }
 
     public void playGame(View v) {

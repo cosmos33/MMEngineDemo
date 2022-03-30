@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF00">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF0000"
+        android:gravity="center_vertical"
+        android:onClick="playRocket"
+        android:paddingLeft="10dp"
+        android:text="定制火箭"
+        android:textColor="#FFFF00"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF0000"
+        android:gravity="center_vertical"
+        android:onClick="playGame"
+        android:paddingLeft="10dp"
+        android:text="打棒球"
+        android:textColor="#FFFF00"
+        android:textSize="30sp" />
+
+</LinearLayout>

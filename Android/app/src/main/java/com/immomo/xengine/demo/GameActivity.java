@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import com.momo.xeengine.game.XEGameView;
 public final class GameActivity extends AppCompatActivity implements IXGameView.Callback {
 
     private XEGameView gameView;
+    private ViewGroup viewGroup;
     private GameHandler gameHandler;
 
     @Override
@@ -22,7 +24,9 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         gameHandler = new GameHandler(this);
-        gameView = findViewById(R.id.gameView);
+        viewGroup = findViewById(R.id.viewGroup);
+        gameView = new XEGameView(this);
+        viewGroup.addView(gameView);
         gameView.setRenderViewType(XEGameView.TYPE_TEXTURE_VIEW);
         gameView.setRenderScale(1.f);
         gameView.setPreferredFramesPerSecond(30);

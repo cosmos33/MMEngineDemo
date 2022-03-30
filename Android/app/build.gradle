@@ -33,8 +33,14 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
+//    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+
+    //引擎👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
     implementation 'com.immomo.cosmos.baseutil:cpp_shared:r17c'
     implementation 'com.immomo.xengine:xeengine_android:4.5.2.20210214.1500'
     implementation 'com.immomo.xengine:xeengine:4.5.2.20210214.1500'
+    //引擎👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
 }
