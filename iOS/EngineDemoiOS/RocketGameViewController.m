@@ -54,22 +54,25 @@
 }
 
 - (void)onStart:(id<IXEngine>)engine {
-    //添加火箭素材目录
+    
+    //添加火箭素材目录，可以是任意绝对路径，只有素材在这个路径下找到即可
     NSString *resPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/RocketDIY"];
     [engine addLibraryPath:resPath];
-    //添加头像目录
+    
+    //添加头像目录，可以是任意绝对路径，只有素材在这个路径下找到即可
     NSString *avatarsPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/Avatars"];
     [engine addLibraryPath:avatarsPath];
     
     //注册Bridge对象，
     //这里需要注意的是 所以的bridge的回调都不在主线程，如果需要操作UI需要调度到主线程中。
     [engine.scriptEngine.scriptBridge regist:self forHandler:GAME_HANDLER_NAME];
-    if (_rocketConfig) {
+    
+    if (_rocketConfig) {//送礼模式
         [engine.scriptEngine execteGameScriptFile:@"giftApp"];
         [engine.scriptEngine.scriptBridge callLua:GAME_HANDLER_NAME
                                            action:@"gameInfo"
                                           message:_rocketConfig];
-    } else {
+    } else {//编辑模式
         [engine.scriptEngine execteGameScriptFile:@"app"];
     }
 }
