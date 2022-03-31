@@ -21,13 +21,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //启用引擎子模块
     XEngineUseUIModule();
     XEngineUseLuaModule();
     XEngineUseAudioModule();
     XEngineUsePhysicsModule();
     
+    //设置引擎的License授权
     [[XEnginePreferences shareInstance] setLicense:@"OjkAHm4HIlGJQc0OL+mtBqDdho7DB8OuLmBwSLaBTncpR3BX3+tjJvX14pWFkfTIty9mIT+bF6O49HQUVYWD6vpWM6rKEqXzCNO9++1YD/hvinWqdoXv41mrLAfU7UgD7W8mXhJgVLdyMwkPOhehZ6kpRIIhzvIeiJdL1j7M00E="];
+    
     return YES;
 }
 

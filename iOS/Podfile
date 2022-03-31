@@ -8,6 +8,8 @@ install! 'cocoapods',
 :generate_multiple_pod_projects => true
 
 target 'EngineDemoiOS' do
+  
+  #引擎依赖👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
   pod 'MMXEngineBase',    '4.5.1.ssl'           #必要
   pod 'XESceneKit',       '4.5.1.20211025.1123' #必要
 
@@ -15,4 +17,10 @@ target 'EngineDemoiOS' do
   pod 'XEngineLua',       '4.5.1.20211025.1123' #可选
   pod 'XEnginePhysics',   '4.5.1.20211025.1123' #可选
   pod 'XEngineUI',        '4.5.1.20211025.1123' #可选
+  #引擎依赖👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
+  
+  #重要提示‼️‼️‼️‼️‼️‼️‼️‼️
+  #DEMO中使用的引擎版本仅用于测试，上线时请联系相关人员获取正式版本‼️
+  #重要提示‼️‼️‼️‼️‼️‼️‼️‼️
+  
 end
