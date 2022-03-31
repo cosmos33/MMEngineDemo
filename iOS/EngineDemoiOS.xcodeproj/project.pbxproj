@@ -10,6 +10,9 @@
 		4C09AB6925BE7B83008EDB5C /* GameRes in Resources */ = {isa = PBXBuildFile; fileRef = 4C09AB6825BE7B82008EDB5C /* GameRes */; };
 		4C09ACC125BEB565008EDB5C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C09ACB825BEAB54008EDB5C /* CoreMotion.framework */; };
 		4C75BC5025C170BC008B6F32 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75BC4F25C170BC008B6F32 /* GameViewController.m */; };
+		4C788CE627F46D38009BC44C /* RocketGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C788CE527F46D38009BC44C /* RocketGameViewController.m */; };
+		4C788CE827F54D10009BC44C /* RocketDIY in Resources */ = {isa = PBXBuildFile; fileRef = 4C788CE727F54D10009BC44C /* RocketDIY */; };
+		4C788CEA27F54FE2009BC44C /* Avatars in Resources */ = {isa = PBXBuildFile; fileRef = 4C788CE927F54FE2009BC44C /* Avatars */; };
 		4C895E1825BAB5D800D0454A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C895E1725BAB5D800D0454A /* AppDelegate.m */; };
 		4C895E1B25BAB5D800D0454A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C895E1A25BAB5D800D0454A /* SceneDelegate.m */; };
 		4C895E1E25BAB5D800D0454A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C895E1D25BAB5D800D0454A /* ViewController.m */; };
@@ -29,6 +32,10 @@
 		4C09ACB825BEAB54008EDB5C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		4C75BC4E25C170BC008B6F32 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		4C75BC4F25C170BC008B6F32 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4C788CE427F46D38009BC44C /* RocketGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RocketGameViewController.h; sourceTree = "<group>"; };
+		4C788CE527F46D38009BC44C /* RocketGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocketGameViewController.m; sourceTree = "<group>"; };
+		4C788CE727F54D10009BC44C /* RocketDIY */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RocketDIY; path = ../../../game2b/RocketDIY; sourceTree = "<group>"; };
+		4C788CE927F54FE2009BC44C /* Avatars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Avatars; sourceTree = "<group>"; };
 		4C895E1325BAB5D800D0454A /* EngineDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C895E1625BAB5D800D0454A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C895E1725BAB5D800D0454A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +67,8 @@
 		4C895E0A25BAB5D800D0454A = {
 			isa = PBXGroup;
 			children = (
+				4C788CE927F54FE2009BC44C /* Avatars */,
+				4C788CE727F54D10009BC44C /* RocketDIY */,
 				4C09AB6825BE7B82008EDB5C /* GameRes */,
 				4C895E1525BAB5D800D0454A /* EngineDemoiOS */,
 				4C895E1425BAB5D800D0454A /* Products */,
@@ -92,6 +101,8 @@
 				4C895E2825BAB5DB00D0454A /* main.m */,
 				4C75BC4E25C170BC008B6F32 /* GameViewController.h */,
 				4C75BC4F25C170BC008B6F32 /* GameViewController.m */,
+				4C788CE427F46D38009BC44C /* RocketGameViewController.h */,
+				4C788CE527F46D38009BC44C /* RocketGameViewController.m */,
 			);
 			path = EngineDemoiOS;
 			sourceTree = "<group>";
@@ -174,8 +185,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C788CE827F54D10009BC44C /* RocketDIY in Resources */,
 				4C895E2625BAB5DB00D0454A /* LaunchScreen.storyboard in Resources */,
 				4C895E2325BAB5DB00D0454A /* Assets.xcassets in Resources */,
+				4C788CEA27F54FE2009BC44C /* Avatars in Resources */,
 				4C895E2125BAB5D800D0454A /* Main.storyboard in Resources */,
 				4C09AB6925BE7B83008EDB5C /* GameRes in Resources */,
 			);
@@ -230,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C788CE627F46D38009BC44C /* RocketGameViewController.m in Sources */,
 				4C75BC5025C170BC008B6F32 /* GameViewController.m in Sources */,
 				4C895E1E25BAB5D800D0454A /* ViewController.m in Sources */,
 				4C895E1825BAB5D800D0454A /* AppDelegate.m in Sources */,

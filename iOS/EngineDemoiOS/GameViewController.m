@@ -20,9 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
     //创建GameView
     _gameView = [[XEGameView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:_gameView];
+    _gameView.backgroundColor = [UIColor clearColor];
     //设置GameView代理
     _gameView.delegate = self;
     //启动GameView
@@ -44,6 +46,11 @@
     [engine execteGameScriptFile:@"app"];
 }
 
+- (void)onStartFailed:(nonnull NSString *)reason {
+    
+}
+
+
 - (void)viewWillDisappear:(BOOL)animated {
     //移除所有注册的bridge
     [_engine.scriptBridge unregistAll];
@@ -61,11 +68,6 @@ XE_BBRIDGE_METHOD(removeGame) {
         [self presentViewController:alert animated:true completion:nil];
     });
     return nil;
-}
-
-//异步Bridge方法
-XE_BBRIDGE_ASYNC_METHOD(func2) {
-    callback(@"OC异步回调");
 }
 
 @end
