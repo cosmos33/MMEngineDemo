@@ -11,8 +11,12 @@
 #define GAME_HANDLER_NAME @"LiveGameHandler"
 
 @interface RocketGameViewController () <XEGameViewDelegate>
-@property (nonatomic, strong) XEGameView *gameView;
-@property (nonatomic, copy)NSString *rocketConfig;
+
+//渲染视图，引擎提供
+@property (nonatomic, strong)   XEGameView  *gameView;
+//火箭配置，DEMO中为空表示火箭编辑模式
+@property (nonatomic, copy)     NSString    *rocketConfig;
+
 @end
 
 @implementation RocketGameViewController
@@ -24,7 +28,7 @@
 }
 
 /**
- 开始游戏
+ * 开始游戏
  */
 - (void)startGame {
     CGSize rootViewSize = self.view.bounds.size;
@@ -46,13 +50,19 @@
     _gameView.delegate = self;
     [_gameView start];
 }
-
+/**
+ * 结束游戏
+ */
 - (void)stopGame {
     [_gameView stop];
     [_gameView removeFromSuperview];
     _gameView = nil;
 }
 
+/**
+ * [XEGameView start]的回调，引擎启动成功
+ * @param engine 引擎实例对象
+ */
 - (void)onStart:(id<IXEngine>)engine {
     
     //添加火箭素材目录，可以是任意绝对路径，只有素材在这个路径下找到即可
@@ -76,7 +86,11 @@
         [engine.scriptEngine execteGameScriptFile:@"app"];
     }
 }
-
+/**
+ * [XEGameView start]的回调，引擎启动失败
+ * @param reason 失败原因。
+ * 失败原因可能为：1.license授权未通过；2.设备不支持Metal；
+ */
 - (void)onStartFailed:(NSString *)reason {
     dispatch_async(dispatch_get_main_queue(), ^{
         UIAlertController *alert =
@@ -92,8 +106,7 @@
 }
 
 /**
-* 游戏结束的回调，发射模式回调。
-*
+* 游戏结束的回调，发射模式回调。（Bridge方法，游戏回调客户端）
 * @param args 无需处理
 * @return 无需处理，返回空即可
 */
@@ -116,7 +129,7 @@ XE_BBRIDGE_METHOD(removeGame) {
 }
 
 /**
-* 发射火箭
+* 发射火箭（Bridge方法，游戏回调客户端）
 *
 * @param args 火箭的样式json
 * @return
@@ -133,7 +146,7 @@ XE_BBRIDGE_METHOD(startRocket) {
 }
 
 /**
-* 获取自定义的配置
+* 获取自定义的配置（Bridge方法，游戏回调客户端）
 * @param args 无需处理
 * @return 头像的jsonArray
 */
@@ -154,4 +167,5 @@ XE_BBRIDGE_METHOD(getAvatars) {
     return ret;
 
 }
+
 @end
