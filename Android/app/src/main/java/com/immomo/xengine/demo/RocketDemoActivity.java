@@ -168,7 +168,7 @@ public class RocketDemoActivity extends AppCompatActivity implements IXGameView.
     @Keep
     public String getAvatars(String args) {
         List<String> avatars = new ArrayList<>();
-        avatars.add("1.jpg");//默认头像
+        avatars.add("1.jpg");//默认头像  传null的话使用素材内部的默认头像
         avatars.add("head_own.png");//第一个是自己头像,(相对于addLibraryPath添加的头像路径的相对路径)
         avatars.add("head_anchor.png");//第二个是主播头像,(相对于addLibraryPath添加的头像路径的相对路径)
         return gson.toJson(avatars);

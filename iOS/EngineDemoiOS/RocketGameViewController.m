@@ -152,7 +152,7 @@ XE_BBRIDGE_METHOD(startRocket) {
 */
 XE_BBRIDGE_METHOD(getAvatars) {
     NSArray *avatars =@[
-        @"1.jpg",//默认头像
+        @"1.jpg",//默认头像  传null的话使用素材内部的默认头像
         @"head_own.png",//第一个是自己头像,(相对于addLibraryPath添加的头像路径的相对路径)
         @"head_anchor.png"//第二个是主播头像,(相对于addLibraryPath添加的头像路径的相对路径)
     ];
