@@ -73,6 +73,10 @@
     NSString *avatarsPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/Avatars"];
     [engine addLibraryPath:avatarsPath];
     
+    //添加第二个头像目录，可以是任意绝对路径，只有素材在这个路径下找到即可
+    NSString *avatarsPath2 = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/avatars.bundle"];
+    [engine addLibraryPath:avatarsPath2];
+    
     //注册Bridge对象，
     //这里需要注意的是 所以的bridge的回调都不在主线程，如果需要操作UI需要调度到主线程中。
     [engine.scriptEngine.scriptBridge regist:self forHandler:GAME_HANDLER_NAME];

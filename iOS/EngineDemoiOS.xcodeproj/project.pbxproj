@@ -13,6 +13,7 @@
 		4C788CE627F46D38009BC44C /* RocketGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C788CE527F46D38009BC44C /* RocketGameViewController.m */; };
 		4C788CE827F54D10009BC44C /* RocketDIY in Resources */ = {isa = PBXBuildFile; fileRef = 4C788CE727F54D10009BC44C /* RocketDIY */; };
 		4C788CEA27F54FE2009BC44C /* Avatars in Resources */ = {isa = PBXBuildFile; fileRef = 4C788CE927F54FE2009BC44C /* Avatars */; };
+		4C78903A27F70253009BC44C /* avatars.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C78903927F70253009BC44C /* avatars.bundle */; };
 		4C895E1825BAB5D800D0454A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C895E1725BAB5D800D0454A /* AppDelegate.m */; };
 		4C895E1B25BAB5D800D0454A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C895E1A25BAB5D800D0454A /* SceneDelegate.m */; };
 		4C895E1E25BAB5D800D0454A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C895E1D25BAB5D800D0454A /* ViewController.m */; };
@@ -36,6 +37,7 @@
 		4C788CE527F46D38009BC44C /* RocketGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocketGameViewController.m; sourceTree = "<group>"; };
 		4C788CE727F54D10009BC44C /* RocketDIY */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RocketDIY; path = ../../../game2b/RocketDIY; sourceTree = "<group>"; };
 		4C788CE927F54FE2009BC44C /* Avatars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Avatars; sourceTree = "<group>"; };
+		4C78903927F70253009BC44C /* avatars.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = avatars.bundle; sourceTree = "<group>"; };
 		4C895E1325BAB5D800D0454A /* EngineDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C895E1625BAB5D800D0454A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C895E1725BAB5D800D0454A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		4C895E0A25BAB5D800D0454A = {
 			isa = PBXGroup;
 			children = (
+				4C78903927F70253009BC44C /* avatars.bundle */,
 				4C788CE927F54FE2009BC44C /* Avatars */,
 				4C788CE727F54D10009BC44C /* RocketDIY */,
 				4C09AB6825BE7B82008EDB5C /* GameRes */,
@@ -188,6 +191,7 @@
 				4C788CE827F54D10009BC44C /* RocketDIY in Resources */,
 				4C895E2625BAB5DB00D0454A /* LaunchScreen.storyboard in Resources */,
 				4C895E2325BAB5DB00D0454A /* Assets.xcassets in Resources */,
+				4C78903A27F70253009BC44C /* avatars.bundle in Resources */,
 				4C788CEA27F54FE2009BC44C /* Avatars in Resources */,
 				4C895E2125BAB5D800D0454A /* Main.storyboard in Resources */,
 				4C09AB6925BE7B83008EDB5C /* GameRes in Resources */,
