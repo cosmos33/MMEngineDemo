@@ -49,11 +49,15 @@ public final class MainActivity extends AppCompatActivity {
 
 
     public void playRocket(View v) {
-        Intent intent = new Intent(this, RocketDemoActivity.class);
-        startActivity(intent);
+        startActivity(new Intent(this, RocketDemoActivity.class));
     }
 
     public void playGame(View v) {
         startActivity(new Intent(this, GameActivity.class));
+    }
+
+    public void playAvatarDemo(View v) {
+        startActivity(new Intent(this, AvatarDemoActivity.class));
+
     }
 }

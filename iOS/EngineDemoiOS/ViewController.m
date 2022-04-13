@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "GameViewController.h"
 #import "RocketGameViewController.h"
+#import "AvatarDemoViewController.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,11 @@
         }},
         @{@"title": @"打棒球DEMO", @"subTitle": @"", @"action": ^() {
             GameViewController *vc = [[GameViewController alloc] init];
+            vc.modalPresentationStyle = UIModalPresentationFullScreen;
+            [self presentViewController:vc animated:YES completion:nil];
+        }},
+        @{@"title": @"虚拟形象DEMO", @"subTitle": @"", @"action": ^() {
+            AvatarDemoViewController *vc = [[AvatarDemoViewController alloc] init];
             vc.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:vc animated:YES completion:nil];
         }},

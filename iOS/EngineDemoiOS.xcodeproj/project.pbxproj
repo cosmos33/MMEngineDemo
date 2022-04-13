@@ -21,6 +21,7 @@
 		4C895E2325BAB5DB00D0454A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C895E2225BAB5DB00D0454A /* Assets.xcassets */; };
 		4C895E2625BAB5DB00D0454A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C895E2425BAB5DB00D0454A /* LaunchScreen.storyboard */; };
 		4C895E2925BAB5DB00D0454A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C895E2825BAB5DB00D0454A /* main.m */; };
+		4CAA00EA2807032D00FC01E0 /* AvatarDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAA00E92807032D00FC01E0 /* AvatarDemoViewController.m */; };
 		E1C1A5B44B162941EF3CC29A /* libPods-EngineDemoiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A78F1302AC64A0E13B2A2F2 /* libPods-EngineDemoiOS.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,8 @@
 		4C895E2525BAB5DB00D0454A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C895E2725BAB5DB00D0454A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C895E2825BAB5DB00D0454A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CAA00E82807032D00FC01E0 /* AvatarDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvatarDemoViewController.h; sourceTree = "<group>"; };
+		4CAA00E92807032D00FC01E0 /* AvatarDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarDemoViewController.m; sourceTree = "<group>"; };
 		A485B7625D9ECCD6159335C5 /* Pods-EngineDemoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineDemoiOS.debug.xcconfig"; path = "Target Support Files/Pods-EngineDemoiOS/Pods-EngineDemoiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +109,8 @@
 				4C75BC4F25C170BC008B6F32 /* GameViewController.m */,
 				4C788CE427F46D38009BC44C /* RocketGameViewController.h */,
 				4C788CE527F46D38009BC44C /* RocketGameViewController.m */,
+				4CAA00E82807032D00FC01E0 /* AvatarDemoViewController.h */,
+				4CAA00E92807032D00FC01E0 /* AvatarDemoViewController.m */,
 			);
 			path = EngineDemoiOS;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			files = (
 				4C788CE627F46D38009BC44C /* RocketGameViewController.m in Sources */,
 				4C75BC5025C170BC008B6F32 /* GameViewController.m in Sources */,
+				4CAA00EA2807032D00FC01E0 /* AvatarDemoViewController.m in Sources */,
 				4C895E1E25BAB5D800D0454A /* ViewController.m in Sources */,
 				4C895E1825BAB5D800D0454A /* AppDelegate.m in Sources */,
 				4C895E2925BAB5DB00D0454A /* main.m in Sources */,

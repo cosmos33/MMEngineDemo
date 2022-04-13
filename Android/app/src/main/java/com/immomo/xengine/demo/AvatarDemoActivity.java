@@ -13,17 +13,16 @@ import com.momo.xeengine.IXEngine;
 import com.momo.xeengine.game.IXGameView;
 import com.momo.xeengine.game.XEGameView;
 
-public final class GameActivity extends AppCompatActivity implements IXGameView.Callback {
+public class AvatarDemoActivity extends AppCompatActivity implements IXGameView.Callback {
 
     private XEGameView gameView;
     private ViewGroup viewGroup;
-    private GameHandler gameHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
-        gameHandler = new GameHandler(this);
+
         viewGroup = findViewById(R.id.viewGroup);
         gameView = new XEGameView(this);
         viewGroup.addView(gameView);
@@ -50,8 +49,8 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
     public void onStart(IXEngine engine) {
         engine.getLogger().setLogEnable(true);
 
-        engine.addLibraryPath(getExternalFilesDir("") + "/demo");
-        engine.getScriptBridge().regist(gameHandler, "LiveGameHandler");
+        engine.addLibraryPath(getExternalFilesDir("") + "/avatarDemo");
+        engine.getScriptBridge().regist(this, "ClientBridge");
         engine.getScriptEngine().startGameScriptFile("app");
     }
 
@@ -64,7 +63,6 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
         runOnUiThread(() -> {
             Toast.makeText(this, "引擎启动失败 " + errorMsg, Toast.LENGTH_LONG).show();
         });
-
     }
 
     @Override
@@ -74,7 +72,11 @@ public final class GameActivity extends AppCompatActivity implements IXGameView.
 
     @Override
     public void onEngineDynamicLinkLibraryDownloadProcess(int percent, double speed) {
-        //引擎SO动态下载进度回调，依赖于客户端中实现的下载器。
-        //若未启用，则无需处理。
+
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
     }
 }
