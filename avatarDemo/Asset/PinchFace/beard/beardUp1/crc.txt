@@ -1,0 +1,2 @@
+beard/beardUp1/beardUp1.ktx 4125437063 87516
+beard/beardUp1/beardUp1.pvr 1363304880 43828

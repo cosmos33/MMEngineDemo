@@ -1,0 +1,16 @@
+headWear/baseball_cap1/textures/m_hair0.pvr 3870413730 332
+headWear/baseball_cap1/textures/baseball_cap1.pvr 493500213 174900
+headWear/baseball_cap1/textures/baseball_cap1.ktx 3995523305 174880
+headWear/baseball_cap1/textures/m_hair0.ktx 417613179 268
+headWear/baseball_cap1/low/textures/m_hair0.pvr 2729081816 2868
+headWear/baseball_cap1/low/textures/baseball_cap1.pvr 1000768051 2868
+headWear/baseball_cap1/low/textures/baseball_cap1.ktx 113848192 2836
+headWear/baseball_cap1/low/textures/m_hair0.ktx 1880674534 2836
+headWear/baseball_cap1/low/baseball_cap1.mesh 1925847968 15100
+headWear/baseball_cap1/low/baseball_cap1.ski 2182307644 187
+headWear/baseball_cap1/low/baseball_cap1_baseball_cap1.mtins 301948718 855
+headWear/baseball_cap1/low/baseball_cap1_m_hair0.mtins 963235971 1196
+headWear/baseball_cap1/baseball_cap1.mesh 574590037 85314
+headWear/baseball_cap1/baseball_cap1.ski 2182307644 187
+headWear/baseball_cap1/baseball_cap1_baseball_cap1.mtins 632902228 758
+headWear/baseball_cap1/baseball_cap1_m_hair0.mtins 479491388 1119

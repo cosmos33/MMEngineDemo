@@ -1,0 +1,10 @@
+shoes/shoes5/textures/shoes5.pvr 4226319655 43828
+shoes/shoes5/textures/shoes5.ktx 1402132937 43804
+shoes/shoes5/shoes5.mesh 2514386210 78695
+shoes/shoes5/low/textures/shoes5.pvr 1901533051 2868
+shoes/shoes5/low/textures/shoes5.ktx 2815570506 2836
+shoes/shoes5/low/shoes5.mesh 937049594 15799
+shoes/shoes5/low/shoes5_shoes5.mtins 39009594 649
+shoes/shoes5/low/shoes5.ski 1582393962 88
+shoes/shoes5/shoes5_shoes5.mtins 39009594 649
+shoes/shoes5/shoes5.ski 1582393962 88

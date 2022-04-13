@@ -1,0 +1,10 @@
+shorts/duck_swim_ring0/textures/duck_swim_ring0.pvr 4276626141 174900
+shorts/duck_swim_ring0/textures/duck_swim_ring0.ktx 1707975971 174880
+shorts/duck_swim_ring0/duck_swim_ring0.mesh 929769051 59088
+shorts/duck_swim_ring0/low/textures/duck_swim_ring0.pvr 3736150165 2868
+shorts/duck_swim_ring0/low/textures/duck_swim_ring0.ktx 1450107786 2836
+shorts/duck_swim_ring0/low/duck_swim_ring0.mesh 3131028714 20838
+shorts/duck_swim_ring0/low/duck_swim_ring0.ski 352090296 133
+shorts/duck_swim_ring0/low/duck_swim_ring0_duck_swim_ring0.mtins 3177638549 667
+shorts/duck_swim_ring0/duck_swim_ring0.ski 352090296 133
+shorts/duck_swim_ring0/duck_swim_ring0_duck_swim_ring0.mtins 3350125296 859

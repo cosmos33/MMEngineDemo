@@ -1,0 +1,10 @@
+shoes/shoes3/textures/shoes3.pvr 1795467577 43828
+shoes/shoes3/textures/shoes3.ktx 937410401 43804
+shoes/shoes3/low/textures/shoes3.pvr 4222802748 308
+shoes/shoes3/low/textures/shoes3.ktx 2307203443 268
+shoes/shoes3/low/shoes3.mesh 451976063 21215
+shoes/shoes3/low/shoes3_shoes3.mtins 2484293007 649
+shoes/shoes3/low/shoes3.ski 723848527 88
+shoes/shoes3/shoes3.mesh 1131618775 196463
+shoes/shoes3/shoes3_shoes3.mtins 2484293007 649
+shoes/shoes3/shoes3.ski 723848527 88

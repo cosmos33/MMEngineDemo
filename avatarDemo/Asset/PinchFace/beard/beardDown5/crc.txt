@@ -1,0 +1,2 @@
+beard/beardDown5/beardDown5.ktx 1049433760 87516
+beard/beardDown5/beardDown5.pvr 2843384798 43828

@@ -1,0 +1,10 @@
+hair/elvis/textures/elvis.pvr 4153603158 174900
+hair/elvis/textures/elvis.ktx 526548187 174880
+hair/elvis/low/textures/elvis.pvr 1609915847 2868
+hair/elvis/low/textures/elvis.ktx 3501931858 2836
+hair/elvis/low/elvis.ski 2257693416 83
+hair/elvis/low/elvis.mesh 95104780 14192
+hair/elvis/low/elvis_elvis.mtins 4155798525 1192
+hair/elvis/elvis.ski 2257693416 83
+hair/elvis/elvis.mesh 151364608 36712
+hair/elvis/elvis_elvis.mtins 3235442502 1208

@@ -1,0 +1,10 @@
+hair/w_hair4/w_hair4.mesh 3027260179 108644
+hair/w_hair4/textures/w_hair4.ktx 2267646573 174880
+hair/w_hair4/textures/w_hair4.pvr 3654137185 174900
+hair/w_hair4/w_hair4.ski 1333612109 93
+hair/w_hair4/low/w_hair4.mesh 3589325386 33514
+hair/w_hair4/low/textures/w_hair4.ktx 1770179686 2836
+hair/w_hair4/low/textures/w_hair4.pvr 909228551 2868
+hair/w_hair4/low/w_hair4.ski 1333612109 93
+hair/w_hair4/low/w_hair4_w_hair4.mtins 1407089936 1196
+hair/w_hair4/w_hair4_w_hair4.mtins 1426661680 1119

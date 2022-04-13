@@ -1,0 +1,14 @@
+shorts/check_w_bottoms/textures/blue.ktx 2155852317 148
+shorts/check_w_bottoms/textures/blue.pvr 1681116928 340
+shorts/check_w_bottoms/textures/check_w_bottoms_e.ktx 3437214675 174880
+shorts/check_w_bottoms/textures/check_w_bottoms_e.pvr 3910912197 174900
+shorts/check_w_bottoms/textures/check_w_bottoms.pvr 2517716673 174900
+shorts/check_w_bottoms/textures/check_w_bottoms.ktx 437966465 174880
+shorts/check_w_bottoms/low/textures/check_w_bottoms.pvr 3534848277 11060
+shorts/check_w_bottoms/low/textures/check_w_bottoms.ktx 2814491804 11032
+shorts/check_w_bottoms/low/check_w_bottoms.ski 2104295700 133
+shorts/check_w_bottoms/low/check_w_bottoms.mesh 1162529407 33900
+shorts/check_w_bottoms/low/check_w_bottoms_check_w_bottoms.mtins 356517463 859
+shorts/check_w_bottoms/check_w_bottoms.ski 2104295700 133
+shorts/check_w_bottoms/check_w_bottoms.mesh 1162529407 33900
+shorts/check_w_bottoms/check_w_bottoms_check_w_bottoms.mtins 3111830421 889

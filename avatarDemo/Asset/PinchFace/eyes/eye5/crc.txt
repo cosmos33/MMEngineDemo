@@ -1,0 +1,7 @@
+eyes/eye5/eye5_eye5.mtins 680139037 1102
+eyes/eye5/textures/eye5_1.ktx 182601772 87516
+eyes/eye5/textures/eye5_1.pvr 2179681762 43828
+eyes/eye5/textures/eye.ktx 1548225495 100
+eyes/eye5/textures/eye.pvr 2046567143 172
+eyes/eye5/eye5.mesh 1186866294 11693
+eyes/eye5/eye5.ski 4152421599 78

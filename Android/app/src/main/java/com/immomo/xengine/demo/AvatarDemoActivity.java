@@ -1,12 +1,16 @@
 package com.immomo.xengine.demo;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Toast;
 
+import androidx.annotation.Keep;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.momo.xeengine.IXEngine;
@@ -21,6 +25,9 @@ public class AvatarDemoActivity extends AppCompatActivity implements IXGameView.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_game);
 
         viewGroup = findViewById(R.id.viewGroup);
@@ -51,7 +58,7 @@ public class AvatarDemoActivity extends AppCompatActivity implements IXGameView.
 
         engine.addLibraryPath(getExternalFilesDir("") + "/avatarDemo");
         engine.getScriptBridge().regist(this, "ClientBridge");
-        engine.getScriptEngine().startGameScriptFile("app");
+        engine.getScriptEngine().startGameScriptFile("test");
     }
 
     //引擎启动失败回调
@@ -78,5 +85,24 @@ public class AvatarDemoActivity extends AppCompatActivity implements IXGameView.
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
+    }
+
+    @Keep
+    public String onExitButtonClick(String arg) {
+        runOnUiThread(() -> {
+            Toast.makeText(AvatarDemoActivity.this, "点击退出", Toast.LENGTH_SHORT);
+            finish();
+        });
+        return null;
+    }
+
+    @Keep
+    public String onSaveButtonClick(String arg) {
+        runOnUiThread(() -> {
+            Log.i("XENGINE", "保存角色配置: " + arg);
+            Toast.makeText(AvatarDemoActivity.this, "点击保存", Toast.LENGTH_SHORT);
+            finish();
+        });
+        return null;
     }
 }

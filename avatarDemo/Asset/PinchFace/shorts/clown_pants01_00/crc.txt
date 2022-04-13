@@ -1,0 +1,17 @@
+shorts/clown_pants01_00/textures/clown_pants01_00_diff.ktx 1678614022 174880
+shorts/clown_pants01_00/textures/clown_pants01_00_diff.pvr 1132405206 174900
+shorts/clown_pants01_00/textures/clown_pants01_00_sp.ktx 1786498028 174880
+shorts/clown_pants01_00/textures/clown_pants01_00_sp.pvr 3392268338 174900
+shorts/clown_pants01_00/clown_pants01_00.mesh 2550784013 29228
+shorts/clown_pants01_00/low/textures/clown_pants01_00_diff.ktx 1596097374 2836
+shorts/clown_pants01_00/low/textures/clown_pants01_00_diff.pvr 133240188 2868
+shorts/clown_pants01_00/low/clown_pants01_00.mesh 2733863790 8420
+shorts/clown_pants01_00/low/config.json 1206523902 812
+shorts/clown_pants01_00/low/clown_pants01_00_clown_pants01.mtins 920473409 679
+shorts/clown_pants01_00/low/clown_pants01_00.ski 4044958803 129
+shorts/clown_pants01_00/fx/Textures/clown.pvr 385399469 262196
+shorts/clown_pants01_00/fx/Textures/clown.ktx 811209216 87516
+shorts/clown_pants01_00/fx/Sample/CostumeEffectBat02.fx 2163374027 1423
+shorts/clown_pants01_00/config.json 1206523902 812
+shorts/clown_pants01_00/clown_pants01_00_clown_pants01.mtins 1088890004 846
+shorts/clown_pants01_00/clown_pants01_00.ski 4044958803 129

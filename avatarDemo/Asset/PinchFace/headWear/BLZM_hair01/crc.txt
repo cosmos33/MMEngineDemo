@@ -1,0 +1,10 @@
+headWear/BLZM_hair01/textures/BLZM_hair01.ktx 1686162589 1398284
+headWear/BLZM_hair01/textures/BLZM_hair01.pvr 2846964293 699188
+headWear/BLZM_hair01/BLZM_hair01_BLZM_01_diff.mtins 1103857937 927
+headWear/BLZM_hair01/low/textures/BLZM_hair01.ktx 1686162589 1398284
+headWear/BLZM_hair01/low/textures/BLZM_hair01.pvr 2846964293 699188
+headWear/BLZM_hair01/low/BLZM_hair01_BLZM_01_diff.mtins 3038969360 935
+headWear/BLZM_hair01/low/BLZM_hair01.ski 1727082329 153
+headWear/BLZM_hair01/low/BLZM_hair01.mesh 2312559575 95888
+headWear/BLZM_hair01/BLZM_hair01.ski 16742482 149
+headWear/BLZM_hair01/BLZM_hair01.mesh 342227377 137702

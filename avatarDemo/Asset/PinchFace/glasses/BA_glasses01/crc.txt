@@ -1,0 +1,14 @@
+glasses/BA_glasses01/textures/BA_glasses01.pvr 1772187292 174900
+glasses/BA_glasses01/textures/BA_glasses01.ktx 2968435146 349704
+glasses/BA_glasses01/BA_glasses01.ski 3556601026 126
+glasses/BA_glasses01/low/textures/BA_glasses01.pvr 1772187292 174900
+glasses/BA_glasses01/low/textures/BA_glasses01.ktx 2968435146 349704
+glasses/BA_glasses01/low/BA_glasses01.ski 3556601026 126
+glasses/BA_glasses01/low/BA_glasses01_BA_glasses01.mtins 2266489307 973
+glasses/BA_glasses01/low/BA_glasses01.ske 567030808 118
+glasses/BA_glasses01/low/BA_glasses01.mdl 1011988187 50
+glasses/BA_glasses01/low/BA_glasses01.mesh 3078518716 2745
+glasses/BA_glasses01/BA_glasses01_BA_glasses01.mtins 2266489307 973
+glasses/BA_glasses01/BA_glasses01.ske 567030808 118
+glasses/BA_glasses01/BA_glasses01.mdl 1011988187 50
+glasses/BA_glasses01/BA_glasses01.mesh 3078518716 2745

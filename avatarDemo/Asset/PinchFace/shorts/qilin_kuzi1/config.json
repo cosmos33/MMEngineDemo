@@ -1,0 +1,25 @@
+{
+  "pendants": [
+	{
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectDown_L_01",
+      "assetPath": "Asset/PinchFace/shorts/qilin_kuzi1/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectDown_L_02",
+      "assetPath": "Asset/PinchFace/shorts/qilin_kuzi1/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectDown_R_01",
+      "assetPath": "Asset/PinchFace/shorts/qilin_kuzi1/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectDown_R_02",
+      "assetPath": "Asset/PinchFace/shorts/qilin_kuzi1/fx/Sample/CostumeEffectBat02"
+    }
+
+  ]
+}

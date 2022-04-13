@@ -37,12 +37,12 @@
     //设置引擎日志开关
     [engine setLogEnable:YES];
     //添加引擎资源搜索路径
-    NSString *path = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/AvatarDemo"];
+    NSString *path = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/avatarDemo"];
     [engine addLibraryPath:path];
     //为游戏Lua脚本注册原生bridge功能（非必需）
     [engine.scriptBridge regist:self forHandler:@"ClientBridge"];
     //执行游戏启动脚本
-    [engine execteGameScriptFile:@"app" argument:@""];
+    [engine execteGameScriptFile:@"test" argument:@""];
 }
 
 - (void)onStartFailed:(nonnull NSString *)reason {
@@ -64,9 +64,12 @@ XE_BBRIDGE_METHOD(onExitButtonClick) {
     });
     return nil;
 }
-
+//用户点击保存按钮的回调
 XE_BBRIDGE_METHOD(onSaveButtonClick) {
     NSLog(@"用户点击保存: %@", message);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self dismissViewControllerAnimated:YES completion:nil];
+    });
     return nil;
 }
 

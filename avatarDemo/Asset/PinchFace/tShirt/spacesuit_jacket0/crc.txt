@@ -1,0 +1,10 @@
+tShirt/spacesuit_jacket0/spacesuit_jacket0.mesh 3632650681 48278
+tShirt/spacesuit_jacket0/textures/spacesuit_jacket0.pvr 1644543608 174900
+tShirt/spacesuit_jacket0/textures/spacesuit_jacket0.ktx 2494534755 174880
+tShirt/spacesuit_jacket0/low/spacesuit_jacket0.mesh 1197473524 24660
+tShirt/spacesuit_jacket0/low/textures/spacesuit_jacket0.pvr 2027053916 11060
+tShirt/spacesuit_jacket0/low/textures/spacesuit_jacket0.ktx 398156047 11032
+tShirt/spacesuit_jacket0/low/spacesuit_jacket0_spacesuit_jacket0.mtins 3050069140 671
+tShirt/spacesuit_jacket0/low/spacesuit_jacket0.ski 949209141 143
+tShirt/spacesuit_jacket0/spacesuit_jacket0_spacesuit_jacket0.mtins 1087252416 863
+tShirt/spacesuit_jacket0/spacesuit_jacket0.ski 949209141 143

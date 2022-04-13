@@ -1,0 +1,53 @@
+MOXB<?xml version="1.0" encoding="GB2312"?>
+<Root>
+ <Node Name="Collapse" Type="UIAnimBase.UIAnimation" FilterPath="" ManualTimeMode="1" ManualStartTime="0" ManualEndTime="306666">
+	<Node Name="ClassifyADetail_Widget" Type="UIAnimBase.Binding.Transform.UINode" FilterPath="">
+	 <Node Name="Transform" Type="TrackBase.Transform">
+		<Node Name="Location" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float">
+			<Node Name="Curve_1" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="0" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		 <Node Name="Y" Type="TrackBase.Float">
+			<Node Name="Curve_2" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="0" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+			<Node Name="Curve_11" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="300000" Value="548" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		</Node>
+		<Node Name="Scale" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float">
+			<Node Name="Curve_3" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="1" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		 <Node Name="Y" Type="TrackBase.Float">
+			<Node Name="Curve_4" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="1" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		</Node>
+		<Node Name="Rotation" Type="TrackBase.Float">
+		 <Node Name="Curve_5" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="0" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		</Node>
+	 </Node>
+	</Node>
+	<Node Name="Undo_Widget" Type="UIAnimBase.Binding.Transform.UINode" FilterPath="">
+	 <Node Name="Transform" Type="TrackBase.Transform">
+		<Node Name="Location" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float">
+			<Node Name="Curve_6" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="375" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		 <Node Name="Y" Type="TrackBase.Float">
+			<Node Name="Curve_7" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="-600" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+			<Node Name="Curve_12" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="300000" Value="-756" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		</Node>
+		<Node Name="Scale" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float">
+			<Node Name="Curve_8" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="1" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		 <Node Name="Y" Type="TrackBase.Float">
+			<Node Name="Curve_9" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="1" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		</Node>
+		<Node Name="Rotation" Type="TrackBase.Float">
+		 <Node Name="Curve_10" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="0" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		</Node>
+	 </Node>
+	</Node>
+ </Node>
+</Root>

@@ -1,0 +1,10 @@
+shoes/shoes2/textures/shoes2.ktx 1739062206 43804
+shoes/shoes2/textures/shoes2.pvr 520639859 43828
+shoes/shoes2/low/textures/shoes2.ktx 762166922 268
+shoes/shoes2/low/textures/shoes2.pvr 2661372606 308
+shoes/shoes2/low/shoes2.mesh 1624738149 21215
+shoes/shoes2/low/shoes2_shoes2.mtins 4133804889 649
+shoes/shoes2/low/shoes2.ski 1713675553 88
+shoes/shoes2/shoes2.mesh 1940920593 142367
+shoes/shoes2/shoes2_shoes2.mtins 455819564 841
+shoes/shoes2/shoes2.ski 1713675553 88

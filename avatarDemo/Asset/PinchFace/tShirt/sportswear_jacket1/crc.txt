@@ -1,0 +1,10 @@
+tShirt/sportswear_jacket1/sportswear_jacket1_sportswear_jacket1.mtins 592342253 673
+tShirt/sportswear_jacket1/textures/sportswear_jacket1.ktx 935131333 174880
+tShirt/sportswear_jacket1/textures/sportswear_jacket1.pvr 3137726541 174900
+tShirt/sportswear_jacket1/low/sportswear_jacket1_sportswear_jacket1.mtins 592342253 673
+tShirt/sportswear_jacket1/low/textures/sportswear_jacket1.ktx 4223207249 2836
+tShirt/sportswear_jacket1/low/textures/sportswear_jacket1.pvr 2019272444 2868
+tShirt/sportswear_jacket1/low/sportswear_jacket1.ski 1347452508 148
+tShirt/sportswear_jacket1/low/sportswear_jacket1.mesh 2658100757 27099
+tShirt/sportswear_jacket1/sportswear_jacket1.ski 1347452508 148
+tShirt/sportswear_jacket1/sportswear_jacket1.mesh 2695353232 92587

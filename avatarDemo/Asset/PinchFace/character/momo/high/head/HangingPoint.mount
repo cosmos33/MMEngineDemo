@@ -1,0 +1,69 @@
+MOXB<?xml version="1.0" encoding="GB2312"?>
+<Mount>
+ <Node Name="HangingPoint" Type="AnimSocketMounter" FilterPath="" EnableRenderBone="0" EditorModelPath="Asset/PinchFace/character/momo/high/head/skin.dressup">
+	<BindSocket>
+	 <Node Name="dummy_Base_Socket" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Base"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="dummy_Bip001 Spine2_Socket" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="-0.707107,0.000000,0.000000,0.707107" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Bip001 Spine2"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="dummy_Bip001 L Hand_Socket" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Bip001 L Hand"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="dummy_Bip001 R Hand_Socket" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="-0.707107,0.000000,0.000000,0.707107" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Bip001 R Hand"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="dummy_Bip001 Head_Socket" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,-0.000000" Rotation="-0.707107,0.000000,0.000000,0.707107" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Bip001 Head"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="Dummy_Shadow" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.707107,0.000000,0.000000,0.707107" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Base"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="Dummy_Aperture" Type="BindSocket" FilterPath="" Location="0.000000,0.030000,0.000000" Rotation="0.707107,0.000000,0.000000,0.707107" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Base">
+		<Preview>
+		 <Component Type="ParticleSystemComponent" AssetPath=""/>
+		</Preview>
+	 </Node>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp03" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="dummy_Bip001 Spine2"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="Effecthat_01" Type="BindSocket" FilterPath="" Location="0.401493,0.000001,-0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="2.500000,2.078900,2.500000" ParentName="dummy_Bip001 Head"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp04" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 L UpperArm"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp05" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 L Forearm"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp06" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 R UpperArm"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp07" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 R Forearm"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp02" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 Spine1"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp01" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 Spine"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectUp00" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 Pelvis"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectDown_L_01" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 L Thigh"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectDown_L_02" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 L Calf"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectDown_R_01" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 R Thigh"/>
+	</BindSocket>
+	<BindSocket>
+	 <Node Name="EffectDown_R_02" Type="BindSocket" FilterPath="" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" ParentName="Bip001 R Calf"/>
+	</BindSocket>
+ </Node>
+</Mount>

@@ -1,0 +1,12 @@
+shorts/cowboy_pants01_00/textures/cowboy_pants01_00_sp.pvr 3163883550 174900
+shorts/cowboy_pants01_00/textures/cowboy_pants01_00_sp.ktx 2604603684 174880
+shorts/cowboy_pants01_00/textures/cowboy_pants01_00_diff.pvr 1501532682 174900
+shorts/cowboy_pants01_00/textures/cowboy_pants01_00_diff.ktx 833523715 174880
+shorts/cowboy_pants01_00/cowboy_pants01_00_cowboy_pants01.mtins 1755854523 808
+shorts/cowboy_pants01_00/low/textures/cowboy_pants01_00_diff.pvr 2081916624 2868
+shorts/cowboy_pants01_00/low/textures/cowboy_pants01_00_diff.ktx 3392046839 2836
+shorts/cowboy_pants01_00/low/cowboy_pants01_00.ski 3814760793 143
+shorts/cowboy_pants01_00/low/cowboy_pants01_00.mesh 3984422820 25322
+shorts/cowboy_pants01_00/low/cowboy_pants01_00_cowboy_pants01_00.mtins 2802443301 681
+shorts/cowboy_pants01_00/cowboy_pants01_00.ski 226126360 134
+shorts/cowboy_pants01_00/cowboy_pants01_00.mesh 1207743367 67857

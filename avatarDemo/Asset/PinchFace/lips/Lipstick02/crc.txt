@@ -1,0 +1,2 @@
+lips/Lipstick02/Lipstick02.pvr 2484994360 174900
+lips/Lipstick02/Lipstick02.ktx 1473825151 349664

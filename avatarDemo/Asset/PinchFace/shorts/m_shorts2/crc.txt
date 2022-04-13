@@ -1,0 +1,10 @@
+shorts/m_shorts2/m_shorts2.mesh 730722176 42218
+shorts/m_shorts2/textures/m_shorts2.ktx 3175926103 174880
+shorts/m_shorts2/textures/m_shorts2.pvr 4096831214 174900
+shorts/m_shorts2/low/m_shorts2.mesh 2728148447 9916
+shorts/m_shorts2/low/textures/m_shorts2.ktx 4046643138 11032
+shorts/m_shorts2/low/textures/m_shorts2.pvr 4266348181 11060
+shorts/m_shorts2/low/m_shorts2.ski 2550341313 103
+shorts/m_shorts2/low/m_shorts2_m_shorts2.mtins 1479601963 655
+shorts/m_shorts2/m_shorts2.ski 2550341313 103
+shorts/m_shorts2/m_shorts2_m_shorts2.mtins 1479601963 655

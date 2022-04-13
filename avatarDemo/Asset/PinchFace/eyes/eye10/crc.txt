@@ -1,0 +1,7 @@
+eyes/eye10/textures/eye10.ktx 4100494370 43856
+eyes/eye10/textures/eye10.pvr 1541358753 43828
+eyes/eye10/textures/eye10_1.pvr 3341623243 43828
+eyes/eye10/textures/eye10_1.ktx 1783952362 87556
+eyes/eye10/eye10.mesh 2233310193 17444
+eyes/eye10/eye10_eye10.mtins 1178269587 1301
+eyes/eye10/eye10.ski 4253469426 117

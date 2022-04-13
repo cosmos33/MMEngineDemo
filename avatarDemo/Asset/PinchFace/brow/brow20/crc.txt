@@ -1,0 +1,2 @@
+brow/brow20/brow20.ktx 4061516637 87516
+brow/brow20/brow20.pvr 337393672 43828

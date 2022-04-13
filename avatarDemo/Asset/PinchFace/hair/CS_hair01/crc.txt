@@ -1,0 +1,10 @@
+hair/CS_hair01/textures/CS_hair01.pvr 1933059836 2796340
+hair/CS_hair01/textures/CS_hair01.ktx 3012316211 2796380
+hair/CS_hair01/low/textures/CS_hair01.pvr 1933059836 2796340
+hair/CS_hair01/low/textures/CS_hair01.ktx 3012316211 2796380
+hair/CS_hair01/low/CS_hair01.mesh 510822165 50341
+hair/CS_hair01/low/CS_hair01_Material^#31.mtins 4218650109 923
+hair/CS_hair01/low/CS_hair01.ski 2453057773 162
+hair/CS_hair01/CS_hair01.mesh 1109188210 207083
+hair/CS_hair01/CS_hair01_Material^#4.mtins 1902310366 919
+hair/CS_hair01/CS_hair01.ski 2576871788 154

@@ -1,0 +1,10 @@
+shorts/XZ_short01/textures/XZ_short01.ktx 80896497 699224
+shorts/XZ_short01/textures/XZ_short01.pvr 1154737888 699188
+shorts/XZ_short01/low/textures/XZ_short01.ktx 80896497 699224
+shorts/XZ_short01/low/textures/XZ_short01.pvr 1154737888 699188
+shorts/XZ_short01/low/XZ_short01_Material^#22.mtins 2736667762 925
+shorts/XZ_short01/low/XZ_short01.ski 2973642463 165
+shorts/XZ_short01/low/XZ_short01.mesh 1980255982 10322
+shorts/XZ_short01/XZ_short01.ski 1907875591 165
+shorts/XZ_short01/XZ_short01_xindongjiuba_03.mtins 1147765930 925
+shorts/XZ_short01/XZ_short01.mesh 2167018764 27508

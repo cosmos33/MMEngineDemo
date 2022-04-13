@@ -1,0 +1,5 @@
+suit/BA_suit01/BA_suit01_BA_suit01.mtins 1561291281 701
+suit/BA_suit01/textures/BA_suit01.ktx 3183935792 349704
+suit/BA_suit01/textures/BA_suit01.pvr 1875555573 174900
+suit/BA_suit01/BA_suit01.ski 3527536145 103
+suit/BA_suit01/BA_suit01.mesh 148247610 38576

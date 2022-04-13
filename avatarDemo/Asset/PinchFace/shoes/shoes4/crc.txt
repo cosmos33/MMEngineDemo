@@ -1,0 +1,10 @@
+shoes/shoes4/textures/shoes4.ktx 1969140741 43804
+shoes/shoes4/textures/shoes4.pvr 2058185871 43828
+shoes/shoes4/shoes4.mesh 1173372007 196463
+shoes/shoes4/low/textures/shoes4.ktx 1450053344 268
+shoes/shoes4/low/textures/shoes4.pvr 3026353151 308
+shoes/shoes4/low/shoes4.mesh 730222285 21215
+shoes/shoes4/low/shoes4_shoes4.mtins 1613016044 649
+shoes/shoes4/low/shoes4.ski 324073988 88
+shoes/shoes4/shoes4_shoes4.mtins 1613016044 649
+shoes/shoes4/shoes4.ski 324073988 88

@@ -1,0 +1,10 @@
+tShirt/sweatshirt1/textures/sweatshirt1.ktx 3579762232 174880
+tShirt/sweatshirt1/textures/sweatshirt1.pvr 3682491898 174900
+tShirt/sweatshirt1/low/textures/sweatshirt1.ktx 4205980434 2836
+tShirt/sweatshirt1/low/textures/sweatshirt1.pvr 286862656 2868
+tShirt/sweatshirt1/low/sweatshirt1.ski 3760224900 113
+tShirt/sweatshirt1/low/sweatshirt1_sweatshirt1.mtins 385078187 659
+tShirt/sweatshirt1/low/sweatshirt1.mesh 3604095200 24570
+tShirt/sweatshirt1/sweatshirt1.ski 3760224900 113
+tShirt/sweatshirt1/sweatshirt1_sweatshirt1.mtins 385078187 659
+tShirt/sweatshirt1/sweatshirt1.mesh 3390740786 85468

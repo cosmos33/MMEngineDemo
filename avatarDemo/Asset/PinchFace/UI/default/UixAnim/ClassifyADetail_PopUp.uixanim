@@ -1,0 +1,41 @@
+MOXB<?xml version="1.0" encoding="GB2312"?>
+<Root>
+ <Node Name="Collapse" Type="UIAnimBase.UIAnimation" FilterPath="" ManualTimeMode="1" ManualStartTime="0" ManualEndTime="313333">
+	<Node Name="ClassifyADetail_Widget" Type="UIAnimBase.Binding.Transform.UINode" FilterPath="">
+	 <Node Name="Transform" Type="TrackBase.Transform">
+		<Node Name="Location" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float">
+			<Node Name="Curve_32" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="306700" Value="0" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		 <Node Name="Y" Type="TrackBase.Float">
+			<Node Name="Curve_26" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="548" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+			<Node Name="Curve_31" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="306700" Value="0" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		</Node>
+		<Node Name="Scale" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float"/>
+		 <Node Name="Y" Type="TrackBase.Float"/>
+		</Node>
+		<Node Name="Rotation" Type="TrackBase.Float"/>
+	 </Node>
+	</Node>
+	<Node Name="Undo_Widget" Type="UIAnimBase.Binding.Transform.UINode" FilterPath="">
+	 <Node Name="Transform" Type="TrackBase.Transform">
+		<Node Name="Location" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float">
+			<Node Name="Curve_34" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="306700" Value="375" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		 <Node Name="Y" Type="TrackBase.Float">
+			<Node Name="Curve_27" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="0" Value="-756" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+			<Node Name="Curve_33" Type="KeyframeData.xfloat32.Curve" FilterPath="" StartTime="306700" Value="-600" ArriveTangent="0" LeaveTangent="0" InterpMode="1"/>
+		 </Node>
+		</Node>
+		<Node Name="Scale" Type="TrackBase">
+		 <Node Name="X" Type="TrackBase.Float"/>
+		 <Node Name="Y" Type="TrackBase.Float"/>
+		</Node>
+		<Node Name="Rotation" Type="TrackBase.Float"/>
+	 </Node>
+	</Node>
+ </Node>
+</Root>

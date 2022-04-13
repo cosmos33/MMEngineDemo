@@ -1,0 +1,7 @@
+eyes/eye11/textures/eye11.pvr 365031244 43828
+eyes/eye11/textures/eye11.ktx 3259063747 43856
+eyes/eye11/textures/eye11_1.pvr 3744150218 43828
+eyes/eye11/textures/eye11_1.ktx 2502867117 87556
+eyes/eye11/eye11.mesh 3884442132 16197
+eyes/eye11/eye11_eye11.mtins 787100152 1239
+eyes/eye11/eye11.ski 2168850218 127

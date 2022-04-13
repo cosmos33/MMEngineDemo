@@ -1,0 +1,2 @@
+lips/Lipstick01/Lipstick01.pvr 1463853500 174900
+lips/Lipstick01/Lipstick01.ktx 3086436600 349664

@@ -1,0 +1,10 @@
+suit/CS_tShirt01/CS_tShirt01.mesh 1233364005 76034
+suit/CS_tShirt01/textures/CS_tShirt01.ktx 3012316211 2796380
+suit/CS_tShirt01/textures/CS_tShirt01.pvr 1933059836 2796340
+suit/CS_tShirt01/low/CS_tShirt01.mesh 2507117170 38176
+suit/CS_tShirt01/low/textures/CS_tShirt01.ktx 3012316211 2796380
+suit/CS_tShirt01/low/textures/CS_tShirt01.pvr 1933059836 2796340
+suit/CS_tShirt01/low/CS_tShirt01.ski 208236347 167
+suit/CS_tShirt01/low/CS_tShirt01_Material^#31.mtins 536761182 927
+suit/CS_tShirt01/CS_tShirt01.ski 186363985 145
+suit/CS_tShirt01/CS_tShirt01_skin.mtins 2849018477 923

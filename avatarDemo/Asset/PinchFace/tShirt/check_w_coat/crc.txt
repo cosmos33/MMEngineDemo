@@ -1,0 +1,14 @@
+tShirt/check_w_coat/textures/check_w_coat_e.ktx 3437214675 174880
+tShirt/check_w_coat/textures/check_w_coat_e.pvr 3910912197 174900
+tShirt/check_w_coat/textures/check_w_coat.ktx 437966465 174880
+tShirt/check_w_coat/textures/check_w_coat.pvr 2517716673 174900
+tShirt/check_w_coat/textures/blue.ktx 2155852317 148
+tShirt/check_w_coat/textures/blue.pvr 1681116928 340
+tShirt/check_w_coat/low/textures/check_w_coat.ktx 2814491804 11032
+tShirt/check_w_coat/low/textures/check_w_coat.pvr 3534848277 11060
+tShirt/check_w_coat/low/check_w_coat_check_w_coat.mtins 464100937 661
+tShirt/check_w_coat/low/check_w_coat.mesh 2601744135 15789
+tShirt/check_w_coat/low/check_w_coat.ski 1690049230 118
+tShirt/check_w_coat/check_w_coat_check_w_coat.mtins 1989393067 895
+tShirt/check_w_coat/check_w_coat.mesh 1666925309 70759
+tShirt/check_w_coat/check_w_coat.ski 1690049230 118

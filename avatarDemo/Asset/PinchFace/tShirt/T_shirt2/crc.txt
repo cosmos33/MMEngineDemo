@@ -1,0 +1,10 @@
+tShirt/T_shirt2/textures/T_shirt2.ktx 4144446570 174880
+tShirt/T_shirt2/textures/T_shirt2.pvr 1210736745 174900
+tShirt/T_shirt2/T_shirt2.mesh 2852314906 45453
+tShirt/T_shirt2/low/textures/T_shirt2.ktx 684223356 2836
+tShirt/T_shirt2/low/textures/T_shirt2.pvr 1501977111 2868
+tShirt/T_shirt2/low/T_shirt2.mesh 750705331 13783
+tShirt/T_shirt2/low/T_shirt2_T_shirt2.mtins 1759236075 653
+tShirt/T_shirt2/low/T_shirt2.ski 3759259230 98
+tShirt/T_shirt2/T_shirt2_T_shirt2.mtins 795895547 845
+tShirt/T_shirt2/T_shirt2.ski 3759259230 98

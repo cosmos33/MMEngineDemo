@@ -1,0 +1,7 @@
+hair/afro/textures/afro.pvr 397993768 174900
+hair/afro/textures/afro.ktx 4004654279 174880
+hair/afro/textures/afro_n.pvr 2528385733 174900
+hair/afro/textures/afro_n.ktx 2391490231 174880
+hair/afro/afro.ski 3600440823 78
+hair/afro/afro_afro.mtins 2418279718 1227
+hair/afro/afro.mesh 270290259 16551

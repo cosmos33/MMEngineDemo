@@ -1,0 +1,17 @@
+headWear/check_w_headwear/textures/check_w_headwear_e.ktx 2949779047 174880
+headWear/check_w_headwear/textures/check_w_headwear_e.pvr 2094792595 174900
+headWear/check_w_headwear/textures/blue.ktx 2155852317 148
+headWear/check_w_headwear/textures/blue.pvr 1681116928 340
+headWear/check_w_headwear/textures/check_w_headwear.ktx 388387764 174880
+headWear/check_w_headwear/textures/check_w_headwear.pvr 2451710646 174900
+headWear/check_w_headwear/textures/w_hair0.pvr 711987602 11060
+headWear/check_w_headwear/textures/w_hair0.ktx 722764841 11032
+headWear/check_w_headwear/low/textures/check_w_headwear.ktx 4020749576 2836
+headWear/check_w_headwear/low/textures/check_w_headwear.pvr 664666043 2868
+headWear/check_w_headwear/low/check_w_headwear.ski 1220003825 138
+headWear/check_w_headwear/low/check_w_headwear_check_w_headwear.mtins 2632199117 669
+headWear/check_w_headwear/low/check_w_headwear.mesh 2430865468 40603
+headWear/check_w_headwear/check_w_headwear_w_hair0.mtins 1830022574 770
+headWear/check_w_headwear/check_w_headwear.ski 3096425450 208
+headWear/check_w_headwear/check_w_headwear_check_w_headwear.mtins 94556023 811
+headWear/check_w_headwear/check_w_headwear.mesh 3806635618 196889

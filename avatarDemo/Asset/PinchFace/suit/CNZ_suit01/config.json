@@ -1,0 +1,10 @@
+{
+  "pendants": [
+	{
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "dummy_Base_Socket",
+      "assetPath": "Asset/PinchFace/suit/CNZ_suit01/fx/Sample/CN_pifu01"
+    }
+
+  ]
+}

@@ -1,0 +1,7 @@
+eyes/eye2/eye2_eye2.mtins 2037167414 1102
+eyes/eye2/textures/eye2_1.ktx 3371261177 87516
+eyes/eye2/textures/eye2_1.pvr 2131213280 43828
+eyes/eye2/textures/eye.ktx 1548225495 100
+eyes/eye2/textures/eye.pvr 2046567143 172
+eyes/eye2/eye2.ski 3223116152 78
+eyes/eye2/eye2.mesh 1197577233 15821

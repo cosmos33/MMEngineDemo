@@ -1,0 +1,17 @@
+UI/default/Textures/Pinch.plist 247916981 9718
+UI/default/Textures/Pinch.ktx 886360159 1398284
+UI/default/Textures/Pinch.pvr 819434550 4194356
+UI/default/UixAnim/ClassifyADetail_Collapse.uixanim 1648834167 3074
+UI/default/UixAnim/ClassifyADetail_PopUp.uixanim 609835143 2135
+UI/default/PinchFace.uix 3958843475 182480
+UI/default/fx/Textures/Loading.pvr 1954870895 43828
+UI/default/fx/Textures/Loading.ktx 1094365072 87556
+UI/default/fx/Sample/Loading.fx 1481589742 17143
+UI/default/icons/hair.png 1266937399 6735
+UI/default/icons/mouth.png 373907259 6788
+UI/default/icons/suit.png 586782133 5243
+UI/default/icons/headWear.png 3819421525 5418
+UI/default/icons/shoes.png 3467735711 4653
+UI/default/icons/shorts.png 2861329073 6056
+UI/default/icons/tShirt.png 1528548285 4400
+UI/default/icons/glasses.png 443770854 5012

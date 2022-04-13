@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<facerig Version="0">
+    <StateWeight>
+        <State StateName="head_8_1" MorphChannelName="head_8_1"/>
+        <State StateName="head_8_2" MorphChannelName="head_8_2"/>
+        <State StateName="head_8_3" MorphChannelName="head_8_3"/>
+        <State StateName="head_7_1" MorphChannelName="head_7_1"/>
+        <State StateName="head_7_2" MorphChannelName="head_7_2"/>
+        <State StateName="head_6_1" MorphChannelName="head_6_1"/>
+        <State StateName="head_6_2" MorphChannelName="head_6_2"/>
+        <State StateName="head_3_1" MorphChannelName="head_3_1"/>
+        <State StateName="head_3_2" MorphChannelName="head_3_2"/>
+        <State StateName="mouth_2_1" MorphChannelName="mouth_2_1"/>
+        <State StateName="mouth_2_2" MorphChannelName="mouth_2_2"/>
+        <State StateName="mouth_3_1" MorphChannelName="mouth_3_1"/>
+        <State StateName="mouth_3_4" MorphChannelName="mouth_3_4"/>
+        <State StateName="mouth_4_1" MorphChannelName="mouth_4_1"/>
+        <State StateName="mouth_4_2" MorphChannelName="mouth_4_2"/>
+    </StateWeight>
+
+    <ControlBone>
+        <Bone Name="dummy_Base" weight="1.0"/>
+    </ControlBone>
+
+</facerig>
+ 

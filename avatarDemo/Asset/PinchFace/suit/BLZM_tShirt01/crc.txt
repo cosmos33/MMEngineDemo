@@ -1,0 +1,12 @@
+suit/BLZM_tShirt01/textures/BLZM_tShirt01.pvr 2846964293 699188
+suit/BLZM_tShirt01/textures/BLZM_tShirt01.ktx 1686162589 1398284
+suit/BLZM_tShirt01/BLZM_tShirt01_BLZM_01_diff.mtins 145180730 931
+suit/BLZM_tShirt01/low/textures/BLZM_tShirt01.pvr 2846964293 699188
+suit/BLZM_tShirt01/low/textures/BLZM_tShirt01.ktx 1686162589 1398284
+suit/BLZM_tShirt01/low/BLZM_tShirt01_BLZM_01_diff.mtins 1646943567 931
+suit/BLZM_tShirt01/low/BLZM_tShirt01.ski 1720945071 233
+suit/BLZM_tShirt01/low/BLZM_tShirt01.mesh 2170421836 46504
+suit/BLZM_tShirt01/low/BLZM_tShirt01_BLZM_02_diff.mtins 787607284 960
+suit/BLZM_tShirt01/BLZM_tShirt01.ski 1540870246 301
+suit/BLZM_tShirt01/BLZM_tShirt01.mesh 1782464052 147095
+suit/BLZM_tShirt01/BLZM_tShirt01_BLZM_02_diff.mtins 1666751610 993

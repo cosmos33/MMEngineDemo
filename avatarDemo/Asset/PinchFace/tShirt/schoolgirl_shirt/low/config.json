@@ -1,0 +1,45 @@
+{
+  "pendants": [
+	{
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp00",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp01",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat01"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp02",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp03",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp04",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp05",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp06",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat02"
+    },
+    {
+      "AssetType": "ParticleSystemComponent",
+      "bindSocketName": "EffectUp07",
+      "assetPath": "Asset/PinchFace/tShirt/schoolgirl_shirt/fx/Sample/CostumeEffectBat02"
+    }
+
+  ]
+}

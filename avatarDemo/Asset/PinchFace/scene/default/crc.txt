@@ -1,0 +1,11 @@
+scene/default/leave_camera.sequencer 1174140460 2715
+scene/default/BackGround_01/BackGround_01_BackGround_01_M.mtins 2419064627 855
+scene/default/BackGround_01/textures/BackGround_01.pvr 2227589414 174900
+scene/default/BackGround_01/textures/BackGround_01.ktx 3685238398 1398284
+scene/default/BackGround_01/BackGround_01.ski 252301447 136
+scene/default/BackGround_01/BackGround_01.mdl 2011980197 52
+scene/default/BackGround_01/BackGround_01.ske 2009445142 110
+scene/default/BackGround_01/BackGround_01.mesh 3132832745 2268
+scene/default/close_camera.sequencer 3245623166 2711
+scene/default/Config.lua 1645233810 267
+scene/default/pinch3.xscene 2312680484 12252

@@ -1,0 +1,15 @@
+shorts/rugbyer_shorts01_00/rugbyer_shorts01_00.ski 1795681601 144
+shorts/rugbyer_shorts01_00/textures/rugbyer_shorts01_00_diff.pvr 231516746 174900
+shorts/rugbyer_shorts01_00/textures/rugbyer_shorts01_00_diff.ktx 4040944642 174880
+shorts/rugbyer_shorts01_00/low/rugbyer_shorts01_00.ski 1962168735 153
+shorts/rugbyer_shorts01_00/low/textures/rugbyer_shorts01_00_diff.pvr 4254651794 2868
+shorts/rugbyer_shorts01_00/low/textures/rugbyer_shorts01_00_diff.ktx 2391976953 2836
+shorts/rugbyer_shorts01_00/low/config.json 805765104 824
+shorts/rugbyer_shorts01_00/low/rugbyer_shorts01_00_rugbyer_shorts01_00.mtins 2591939386 685
+shorts/rugbyer_shorts01_00/low/rugbyer_shorts01_00.mesh 1756546218 6672
+shorts/rugbyer_shorts01_00/fx/Textures/rugbyer.pvr 3236305166 262196
+shorts/rugbyer_shorts01_00/fx/Textures/rugbyer.ktx 3962129117 87516
+shorts/rugbyer_shorts01_00/fx/Sample/CostumeEffectBat02.fx 387286792 1415
+shorts/rugbyer_shorts01_00/config.json 805765104 824
+shorts/rugbyer_shorts01_00/rugbyer_shorts01_00_rugbyer_shorts01.mtins 2591939386 685
+shorts/rugbyer_shorts01_00/rugbyer_shorts01_00.mesh 3085052120 17059

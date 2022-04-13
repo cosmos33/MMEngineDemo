@@ -12,8 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.XEngineDemoAndroid">
-        <activity android:name=".RocketDemoActivity"/>
-        <activity android:name=".AvatarDemoActivity"/>
+        <activity android:name=".RocketDemoActivity" />
+        <activity
+            android:name=".AvatarDemoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

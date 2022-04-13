@@ -1,0 +1,12 @@
+shorts/ZMXYM_short01/textures/ZMXYM_short01.pvr 333395553 699188
+shorts/ZMXYM_short01/textures/ZMXYM_short01.ktx 3175928742 1398284
+shorts/ZMXYM_short01/ZMXYM_short01.ski 3839613062 229
+shorts/ZMXYM_short01/ZMXYM_short01_ZMXYM_hair02.mtins 2821578334 975
+shorts/ZMXYM_short01/low/textures/ZMXYM_short01.pvr 333395553 699188
+shorts/ZMXYM_short01/low/textures/ZMXYM_short01.ktx 3175928742 1398284
+shorts/ZMXYM_short01/low/ZMXYM_short01.ski 1776595774 233
+shorts/ZMXYM_short01/low/ZMXYM_short01_ZMXYM_hair02.mtins 2294899266 975
+shorts/ZMXYM_short01/low/ZMXYM_short01_ZMXYM_hair01.mtins 3664752502 931
+shorts/ZMXYM_short01/low/ZMXYM_short01.mesh 1641995495 70881
+shorts/ZMXYM_short01/ZMXYM_short01_ZMXYM_hair01.mtins 2852532910 931
+shorts/ZMXYM_short01/ZMXYM_short01.mesh 4122186025 127977

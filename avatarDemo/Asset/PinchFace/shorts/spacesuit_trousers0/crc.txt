@@ -1,0 +1,10 @@
+shorts/spacesuit_trousers0/textures/spacesuit_trousers0.ktx 2254004203 174880
+shorts/spacesuit_trousers0/textures/spacesuit_trousers0.pvr 3328674312 174900
+shorts/spacesuit_trousers0/spacesuit_trousers0.mesh 2336141514 23504
+shorts/spacesuit_trousers0/low/textures/spacesuit_trousers0.ktx 2571831398 2836
+shorts/spacesuit_trousers0/low/textures/spacesuit_trousers0.pvr 1801427087 2868
+shorts/spacesuit_trousers0/low/spacesuit_trousers0.mesh 3344634978 9270
+shorts/spacesuit_trousers0/low/spacesuit_trousers0.ski 3269268656 153
+shorts/spacesuit_trousers0/low/spacesuit_trousers0_spacesuit_trousers0.mtins 2844609844 675
+shorts/spacesuit_trousers0/spacesuit_trousers0.ski 3269268656 153
+shorts/spacesuit_trousers0/spacesuit_trousers0_spacesuit_trousers0.mtins 1813345512 885

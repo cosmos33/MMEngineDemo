@@ -1,0 +1,7 @@
+eyes/eye6/textures/eye6_1.pvr 2999370501 43828
+eyes/eye6/textures/eye6_1.ktx 3616213501 87516
+eyes/eye6/textures/eye.ktx 1548225495 100
+eyes/eye6/textures/eye.pvr 2046567143 172
+eyes/eye6/eye6.ski 642904273 78
+eyes/eye6/eye6_eye6.mtins 97750478 1118
+eyes/eye6/eye6.mesh 3894854515 21677

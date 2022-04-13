@@ -1,0 +1,10 @@
+tShirt/XZ_tShirt01/textures/XZ_tShirt01.pvr 1154737888 699188
+tShirt/XZ_tShirt01/textures/XZ_tShirt01.ktx 80896497 699224
+tShirt/XZ_tShirt01/low/textures/XZ_tShirt01.pvr 1154737888 699188
+tShirt/XZ_tShirt01/low/textures/XZ_tShirt01.ktx 80896497 699224
+tShirt/XZ_tShirt01/low/XZ_tShirt01_Material^#22.mtins 374980533 927
+tShirt/XZ_tShirt01/low/XZ_tShirt01.ski 2971647269 168
+tShirt/XZ_tShirt01/low/XZ_tShirt01.mesh 3515799034 41981
+tShirt/XZ_tShirt01/XZ_tShirt01_xindongjiuba_03.mtins 158551016 935
+tShirt/XZ_tShirt01/XZ_tShirt01.ski 2388499960 169
+tShirt/XZ_tShirt01/XZ_tShirt01.mesh 2968634955 135948

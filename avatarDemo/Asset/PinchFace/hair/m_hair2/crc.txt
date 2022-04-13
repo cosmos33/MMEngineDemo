@@ -1,0 +1,10 @@
+hair/m_hair2/textures/m_hair2.ktx 1528646942 174880
+hair/m_hair2/textures/m_hair2.pvr 2686947858 174900
+hair/m_hair2/low/textures/m_hair2.ktx 1796915988 2836
+hair/m_hair2/low/textures/m_hair2.pvr 4151970395 2868
+hair/m_hair2/low/m_hair2.ski 794511297 93
+hair/m_hair2/low/m_hair2.mesh 79051107 14998
+hair/m_hair2/low/m_hair2_m_hair2.mtins 3103556467 1196
+hair/m_hair2/m_hair2.ski 794511297 93
+hair/m_hair2/m_hair2.mesh 4188222520 46208
+hair/m_hair2/m_hair2_m_hair2.mtins 4115595016 1228

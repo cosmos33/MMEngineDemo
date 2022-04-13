@@ -1,0 +1,7 @@
+eyes/eye3/textures/eye3_1.ktx 267009586 87516
+eyes/eye3/textures/eye3_1.pvr 3292792038 43828
+eyes/eye3/textures/eye.ktx 1548225495 100
+eyes/eye3/textures/eye.pvr 2046567143 172
+eyes/eye3/eye3.ski 2404635266 78
+eyes/eye3/eye3.mesh 3017919840 25433
+eyes/eye3/eye3_eye3.mtins 958190613 1102

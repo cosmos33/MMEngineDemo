@@ -1,0 +1,10 @@
+shorts/sportswear1_pants1/textures/sportswear1_pants1.ktx 2848179506 174880
+shorts/sportswear1_pants1/textures/sportswear1_pants1.pvr 3234412110 174900
+shorts/sportswear1_pants1/sportswear1_pants1_sportswear1_pants1.mtins 1999106845 673
+shorts/sportswear1_pants1/sportswear1_pants1.ski 3623810612 148
+shorts/sportswear1_pants1/low/textures/sportswear1_pants1.ktx 1889486835 2836
+shorts/sportswear1_pants1/low/textures/sportswear1_pants1.pvr 33343375 2868
+shorts/sportswear1_pants1/low/sportswear1_pants1_sportswear1_pants1.mtins 1999106845 673
+shorts/sportswear1_pants1/low/sportswear1_pants1.ski 3623810612 148
+shorts/sportswear1_pants1/low/sportswear1_pants1.mesh 2524869924 14225
+shorts/sportswear1_pants1/sportswear1_pants1.mesh 2817360275 41431

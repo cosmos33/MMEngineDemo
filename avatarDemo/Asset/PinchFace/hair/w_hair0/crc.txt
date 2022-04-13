@@ -1,0 +1,10 @@
+hair/w_hair0/textures/w_hair0.pvr 1458899450 174900
+hair/w_hair0/textures/w_hair0.ktx 4054352226 174880
+hair/w_hair0/w_hair0.ski 3719788578 93
+hair/w_hair0/low/textures/w_hair0.pvr 3393945831 11060
+hair/w_hair0/low/textures/w_hair0.ktx 1764511180 11032
+hair/w_hair0/low/w_hair0.ski 3719788578 93
+hair/w_hair0/low/w_hair0_w_hair0.mtins 2460028193 1196
+hair/w_hair0/low/w_hair0.mesh 2402928271 21526
+hair/w_hair0/w_hair0_w_hair0.mtins 4143750631 1119
+hair/w_hair0/w_hair0.mesh 1940394753 94952

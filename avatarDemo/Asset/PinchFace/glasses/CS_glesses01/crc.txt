@@ -1,0 +1,14 @@
+glasses/CS_glesses01/CS_glesses01.mdl 45384825 50
+glasses/CS_glesses01/textures/CS_glesses01.ktx 80896497 699224
+glasses/CS_glesses01/textures/CS_glesses01.pvr 1154737888 699188
+glasses/CS_glesses01/low/CS_glesses01.mdl 45384825 50
+glasses/CS_glesses01/low/CS_glesses01_Material^#22.mtins 4019872146 723
+glasses/CS_glesses01/low/textures/CS_glesses01.ktx 80896497 699224
+glasses/CS_glesses01/low/textures/CS_glesses01.pvr 1154737888 699188
+glasses/CS_glesses01/low/CS_glesses01.ske 1643642344 133
+glasses/CS_glesses01/low/CS_glesses01.ski 4094172329 141
+glasses/CS_glesses01/low/CS_glesses01.mesh 1818755230 4870
+glasses/CS_glesses01/CS_glesses01.ske 3527328007 132
+glasses/CS_glesses01/CS_glesses01.ski 3307188895 146
+glasses/CS_glesses01/CS_glesses01.mesh 3728490963 10363
+glasses/CS_glesses01/CS_glesses01_xindongjiuba_03.mtins 586629794 929

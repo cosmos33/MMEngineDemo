@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Scene SceneVer="1.2" SceneType="default" ViewportColor="ffffffff">
+ <SceneCamera CameraType="Perspective" FOV="0.34906587" ZNear="0.1" ZFar="500" Location="6.082081,7.411709,-29.939003" Dir="-0.235090,-0.235141,0.943102" Up="-0.056874,0.971961,0.228159"/>
+ <DetectParams>
+	<DetectParam TypeDesc="segmentaion.enable">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="segmentaion.flip_u">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="segmentaion.flip_v">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="segmentaion.rotate_degree">
+	 <VariantData Type="8" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="segmentaion.type">
+	 <VariantData Type="8" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="objectdetect.enable">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="objectdetect.detect_all">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="objectdetect.fliped_show">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="objectdetect.rotate_degree">
+	 <VariantData Type="8" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="body.enable">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="body.use_tracking">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="body.detect_single_frame">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="body.version">
+	 <VariantData Type="8" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.beauty_switch">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.expression_switch">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.eye_classify_switch">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.multifaces_switch">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.detect_single_frame">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.asynchronous_face_detect">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.asynchronous_save_features">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.skin_switch">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.use_npd">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.do_facedect_corp_center">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.max_faces">
+	 <VariantData Type="8" Value="3"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.rotate_degree">
+	 <VariantData Type="8" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.restore_degree">
+	 <VariantData Type="8" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="video.face_alignment_version">
+	 <VariantData Type="8" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.back_tips">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.back_tips_content">
+	 <VariantData Type="9" Value=""/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.back_tips_is_facetrack">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.back_tips_trigger_content">
+	 <VariantData Type="9" Value=""/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.front_tips">
+	 <VariantData Type="7" Value="1"/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.front_tips_content">
+	 <VariantData Type="9" Value=""/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.front_tips_is_facetrack">
+	 <VariantData Type="7" Value="0"/>
+	</DetectParam>
+	<DetectParam TypeDesc="camera.front_tips_trigger_content">
+	 <VariantData Type="9" Value=""/>
+	</DetectParam>
+ </DetectParams>
+ <CollisionChannelArtifactit>
+	<Channel EnumValue="0" EnumName="All pass"/>
+	<Channel EnumValue="1" EnumName="Hidden object"/>
+	<Channel EnumValue="2" EnumName="Visible object"/>
+	<Channel EnumValue="100" EnumName="EmptyActor"/>
+	<Channel EnumValue="101" EnumName="StaticMeshActor"/>
+	<Channel EnumValue="102" EnumName="AnimationMeshActor"/>
+	<Channel EnumValue="103" EnumName="AnimationFaceRigActor"/>
+	<Channel EnumValue="104" EnumName="CameraActor"/>
+	<Channel EnumValue="105" EnumName="Canvas2DRectangleActor"/>
+	<Channel EnumValue="106" EnumName="Canvas3DTextureActor"/>
+	<Channel EnumValue="107" EnumName="DirLightActor"/>
+	<Channel EnumValue="108" EnumName="DummyActor"/>
+	<Channel EnumValue="109" EnumName="EnvLightActor"/>
+	<Channel EnumValue="110" EnumName="PointLightActor"/>
+	<Channel EnumValue="111" EnumName="SpotLightActor"/>
+	<Channel EnumValue="112" EnumName="GroundgridActor"/>
+	<Channel EnumValue="113" EnumName="ParticleSystemActor"/>
+	<Channel EnumValue="114" EnumName="SkySphereActor"/>
+	<Channel EnumValue="115" EnumName="SceneSequenceActor"/>
+	<Channel EnumValue="116" EnumName="WindActor"/>
+	<Channel EnumValue="117" EnumName="UISceneActor"/>
+	<Channel EnumValue="118" EnumName="SceneARAdsActor"/>
+	<Channel EnumValue="119" EnumName="SceneARAdsVideoActor"/>
+	<Channel EnumValue="120" EnumName="AmbientSoundActor"/>
+	<Channel EnumValue="121" EnumName="TriggerBaseActor"/>
+	<Channel EnumValue="122" EnumName="TriggerBoxActor"/>
+	<Channel EnumValue="123" EnumName="TriggerSphereActor"/>
+	<Channel EnumValue="124" EnumName="FaceTrackerActor"/>
+	<Channel EnumValue="125" EnumName="Img2DScreenSequenceFrameActor"/>
+	<Channel EnumValue="126" EnumName="Img2DFaceKeyPointSequenceFrameActor"/>
+	<Channel EnumValue="127" EnumName="ImgSegmentationActor"/>
+	<Channel EnumValue="128" EnumName="XEFaceKeyPointSocketActor"/>
+	<Channel EnumValue="129" EnumName="XEBodyJointSocketActor"/>
+	<Channel EnumValue="130" EnumName="Img2DPointSequenceFrameActor"/>
+	<Channel EnumValue="131" EnumName="ImgFilterChainActor"/>
+	<Channel EnumValue="132" EnumName="ImgFilterUnitActor"/>
+	<Channel EnumValue="133" EnumName="ImgFilterUnitActor"/>
+	<Channel EnumValue="134" EnumName="ImgFaceBrushActor"/>
+ </CollisionChannelArtifactit>
+ <WorldProperty IsOverrideGravity="0" GlobalGravity="0.000000,-9.810000,0.000000" GlobalWindDir="0.000000,0.000000,0.000000" GlobalWindSpeed="0" AAMethod="1" DebugDrawPhysics="1" OIT="0" OITLayerNum="3" Shadow="0" ShadowMapResolution="1024" ShadowDistance="50" ShadowCascadeNum="2" ShadowDepthBias="20" ShadowSoftness="1.5" ShadowStrength="1" ShadowColor="0.000000,0.000000,0.000000,1.000000" BlendshapeNormalMethod="1" BloomEnable="0" BloomColorThreshold="0.80000001" BloomSamplerScale="1" FogEnable="0" FogStart="0" FogEnd="100" FogDensity="0.5" FogColorUpper="0.250000,0.300000,0.400000,1.000000" FogColorLower="0.750000,0.850000,0.900000,1.000000" FogGradientAngleUpper="0" FogGradientAngleLower="0" WorldTickSubsteppingEnable="0" WorldTickMaxStepTimeMS="16" FxBatchEnabled="0" FxBatchInSameLayer="1" FxMaxBatchedVertexNum="1000" BrushPathPointMinDistance="0.001" BrushTexcoordLoopDistance="0.1"/>
+ <Actor Name="EnvLightActor_1" Type="EnvLightActor" FilterPath="/system/" Hidden="0" PickMask="0" PickPriority="-16777212" DrawDebug="0" CollisionChannel="109" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="LightComponent" Index="1" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" LightType="XLT_ENV" Color="ffba9c8a" LightIndex="0" Luminance="1.000000"/>
+ </Actor>
+ <Actor Name="EnvLightActor_2" Type="EnvLightActor" FilterPath="/system/" Hidden="0" PickMask="0" PickPriority="-16777212" DrawDebug="0" CollisionChannel="109" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="LightComponent" Index="1" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000" LightType="XLT_ENV" Color="ffffebed" LightIndex="1" Luminance="0.800000"/>
+ </Actor>
+ <Actor Name="DirLightActor_1" Type="DirLightActor" FilterPath="/system/" Hidden="0" PickMask="3" PickPriority="16777215" DrawDebug="0" CollisionChannel="107" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="LightComponent" Index="1" Location="-0.050000,0.050000,0.170000" Rotation="0.583116,-0.167470,0.242192,0.757148" Scale="0.310919,0.310919,0.310919" LightType="XLT_DIRECTION" Color="ffffffff" Luminance="0.950000"/>
+ </Actor>
+ <Actor Name="PinchFaceCameraActor" Type="CameraActor" FilterPath="/system/" Hidden="0" PickMask="3" PickPriority="0" DrawDebug="0" CollisionChannel="104" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="CameraComponent" Index="1" Location="-0.017622,1.008331,-5.027924" Rotation="0.026210,-0.006107,0.000160,0.999638" Scale="1.000000,1.000000,1.000000" CameraType="Perspective" FOV="0.34906587" ZNear="0.50999999" ZFar="500" ActiveCamera="1"/>
+ </Actor>
+ <Actor Name="PointLightActor_1" Type="PointLightActor" FilterPath="/custom/" Hidden="0" PickMask="3" PickPriority="16777215" DrawDebug="0" CollisionChannel="110" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="LightComponent" Index="1" Location="2.424375,1.392420,-4.359825" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="0.150630,0.150630,0.150630" LightType="XLT_POINT" Color="ffffffff" Luminance="0.150000" FallOffExponent="1.000000" Radius="69.425499"/>
+ </Actor>
+ <Actor Name="SpotLightActor_1" Type="SpotLightActor" FilterPath="/custom/" Hidden="0" PickMask="3" PickPriority="16777215" DrawDebug="0" CollisionChannel="111" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="LightComponent" Index="1" Location="-0.899415,0.301315,-7.390397" Rotation="-0.005025,0.000000,0.000000,0.999987" Scale="0.154054,0.154054,0.154054" LightType="XLT_SPOT" Color="ffffffff" Luminance="0.010000" FallOffExponent="2.000000" Radius="10.000000" ConeInnerAngle="30.000000" ConeOuterAngle="45.000000"/>
+ </Actor>
+ <Actor Name="SpotLightActor_2" Type="SpotLightActor" FilterPath="/custom/" Hidden="0" PickMask="3" PickPriority="16777215" DrawDebug="0" CollisionChannel="111" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="LightComponent" Index="1" Location="-0.503533,2.918821,4.572113" Rotation="0.947077,-0.019795,0.154485,0.280692" Scale="0.576491,0.576491,0.576491" LightType="XLT_SPOT" Color="ffffffff" Luminance="0.180000" FallOffExponent="2.000000" Radius="24.000000" ConeInnerAngle="30.000000" ConeOuterAngle="45.000000"/>
+ </Actor>
+ <Actor Name="PointLightActor_2" Type="PointLightActor" FilterPath="/custom/" Hidden="0" PickMask="3" PickPriority="16777215" DrawDebug="0" CollisionChannel="110" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="LightComponent" Index="1" Location="0.481262,0.000000,-2.060919" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="0.186655,0.186655,0.186655" LightType="XLT_POINT" Color="ffffffff" Luminance="0.040000" FallOffExponent="2.000000" Radius="10.000000"/>
+ </Actor>
+ <Actor Name="DUMMY_ACTOR_TRANSFORM_DRAW" Type="DummyActor" FilterPath="/" Hidden="0" PickMask="0" PickPriority="-16777215" DrawDebug="0" CollisionChannel="108" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="ActorComponent" Index="1" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000"/>
+ </Actor>
+ <Actor Name="grid_ground" Type="GroundgridActor" FilterPath="/system/" Hidden="1" PickMask="3" PickPriority="-16777205" DrawDebug="0" CollisionChannel="112" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000" Dynamic="1" GridType="0">
+	<Component Type="ActorComponent" Index="1" Location="0.000000,0.000000,0.000000" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="1.000000,1.000000,1.000000"/>
+ </Actor>
+ <Actor Name="BackGround_01_1" Type="StaticMeshActor" FilterPath="/custom/" Hidden="0" PickMask="3" PickPriority="0" DrawDebug="0" CollisionChannel="101" BoundingBoxColor="1.000000,0.000000,0.000000,1.000000">
+	<Component Type="ModelComponent" Index="1" Location="0.027206,0.321887,1.967410" Rotation="0.000000,0.000000,0.000000,1.000000" Scale="0.204852,0.205093,0.205093" AssetPath="Asset/PinchFace/scene/default/BackGround_01/BackGround_01.mdl"/>
+ </Actor>
+</Scene>

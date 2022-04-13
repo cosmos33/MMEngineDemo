@@ -1,0 +1,10 @@
+tShirt/camisole0/textures/camisole0.ktx 586507719 174880
+tShirt/camisole0/textures/camisole0.pvr 182647221 174900
+tShirt/camisole0/camisole0.mesh 4106983352 47854
+tShirt/camisole0/low/textures/camisole0.ktx 2989515660 11032
+tShirt/camisole0/low/textures/camisole0.pvr 1691458565 11060
+tShirt/camisole0/low/camisole0.mesh 1864577610 13282
+tShirt/camisole0/low/camisole0_camisole0.mtins 3560544525 655
+tShirt/camisole0/low/camisole0.ski 1968527802 103
+tShirt/camisole0/camisole0_camisole0.mtins 3560544525 655
+tShirt/camisole0/camisole0.ski 1968527802 103

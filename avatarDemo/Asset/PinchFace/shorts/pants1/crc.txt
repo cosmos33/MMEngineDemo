@@ -1,0 +1,10 @@
+shorts/pants1/pants1.ski 2747623937 88
+shorts/pants1/textures/pants1.ktx 1573075049 174880
+shorts/pants1/textures/pants1.pvr 2089664247 174900
+shorts/pants1/pants1.mesh 2289516290 37255
+shorts/pants1/low/pants1.ski 2747623937 88
+shorts/pants1/low/textures/pants1.ktx 1592268006 2836
+shorts/pants1/low/textures/pants1.pvr 1303891307 2868
+shorts/pants1/low/pants1.mesh 3703165330 8101
+shorts/pants1/low/pants1_pants1.mtins 4080330149 649
+shorts/pants1/pants1_pants1.mtins 4080330149 649

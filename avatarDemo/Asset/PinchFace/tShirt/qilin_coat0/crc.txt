@@ -1,0 +1,16 @@
+tShirt/qilin_coat0/textures/qilin_coat0.pvr 4205625952 174900
+tShirt/qilin_coat0/textures/qilin_coat0.ktx 2685583086 174880
+tShirt/qilin_coat0/low/textures/qilin_coat0.pvr 3494551548 11060
+tShirt/qilin_coat0/low/textures/qilin_coat0.ktx 3585419373 11032
+tShirt/qilin_coat0/low/config.json 2303696978 1520
+tShirt/qilin_coat0/low/qilin_coat0.mesh 2126338544 52422
+tShirt/qilin_coat0/low/qilin_coat0_qilin_coat0.mtins 1112994084 851
+tShirt/qilin_coat0/low/qilin_coat0.ski 2589918511 113
+tShirt/qilin_coat0/fx/Textures/qilin.pvr 681344007 262196
+tShirt/qilin_coat0/fx/Textures/qilin.ktx 1934045748 87516
+tShirt/qilin_coat0/fx/Sample/CostumeEffectBat01.fx 944645720 6729
+tShirt/qilin_coat0/fx/Sample/CostumeEffectBat02.fx 363930276 1423
+tShirt/qilin_coat0/config.json 2303696978 1520
+tShirt/qilin_coat0/qilin_coat0.mesh 1902878775 68476
+tShirt/qilin_coat0/qilin_coat0_qilin_coat0.mtins 217272360 851
+tShirt/qilin_coat0/qilin_coat0.ski 2589918511 113

@@ -1,0 +1,14 @@
+glasses/eyeshade01_00/eyeshade01_00.mdl 1381835676 52
+glasses/eyeshade01_00/textures/eyeshade01_00_diff.pvr 3673979131 174900
+glasses/eyeshade01_00/textures/eyeshade01_00_diff.ktx 3321401741 174880
+glasses/eyeshade01_00/low/eyeshade01_00.mdl 1381835676 52
+glasses/eyeshade01_00/low/textures/eyeshade01_00_diff.pvr 2028332544 2868
+glasses/eyeshade01_00/low/textures/eyeshade01_00_diff.ktx 1538899107 2836
+glasses/eyeshade01_00/low/eyeshade01_00.ske 1678188993 107
+glasses/eyeshade01_00/low/eyeshade01_00.ski 114976482 123
+glasses/eyeshade01_00/low/eyeshade01_00_eyeshade01.mtins 2281474234 800
+glasses/eyeshade01_00/low/eyeshade01_00.mesh 138012651 16579
+glasses/eyeshade01_00/eyeshade01_00.ske 1678188993 107
+glasses/eyeshade01_00/eyeshade01_00.ski 114976482 123
+glasses/eyeshade01_00/eyeshade01_00_eyeshade01.mtins 2281474234 800
+glasses/eyeshade01_00/eyeshade01_00.mesh 138012651 16579

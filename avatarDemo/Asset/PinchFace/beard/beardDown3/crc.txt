@@ -1,0 +1,2 @@
+beard/beardDown3/beardDown3.ktx 3423334378 87516
+beard/beardDown3/beardDown3.pvr 1740860980 43828

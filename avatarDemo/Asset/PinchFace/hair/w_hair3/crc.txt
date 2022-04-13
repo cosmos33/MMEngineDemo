@@ -1,0 +1,10 @@
+hair/w_hair3/w_hair3.ski 3334254366 93
+hair/w_hair3/textures/w_hair3.pvr 3436353111 174900
+hair/w_hair3/textures/w_hair3.ktx 1063948423 174880
+hair/w_hair3/w_hair3_w_hair3.mtins 1832662730 1119
+hair/w_hair3/low/w_hair3.ski 3334254366 93
+hair/w_hair3/low/textures/w_hair3.pvr 2076744875 2868
+hair/w_hair3/low/textures/w_hair3.ktx 1550377376 2836
+hair/w_hair3/low/w_hair3_w_hair3.mtins 2662342560 1196
+hair/w_hair3/low/w_hair3.mesh 253082236 15646
+hair/w_hair3/w_hair3.mesh 2750928162 30668

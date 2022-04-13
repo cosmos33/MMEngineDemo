@@ -1,0 +1,16 @@
+headWear/bell_hat0/bell_hat0_bell_hat0.mtins 2636805875 750
+headWear/bell_hat0/textures/bell_hat0.ktx 1868372601 174880
+headWear/bell_hat0/textures/bell_hat0.pvr 1001818451 174900
+headWear/bell_hat0/textures/m_hair0.pvr 3870413730 332
+headWear/bell_hat0/textures/m_hair0.ktx 417613179 268
+headWear/bell_hat0/bell_hat0.mesh 788120420 79786
+headWear/bell_hat0/low/bell_hat0_bell_hat0.mtins 1617778227 847
+headWear/bell_hat0/low/textures/bell_hat0.ktx 1056839457 2836
+headWear/bell_hat0/low/textures/bell_hat0.pvr 2698390253 2868
+headWear/bell_hat0/low/textures/m_hair0.pvr 2729081816 2868
+headWear/bell_hat0/low/textures/m_hair0.ktx 1880674534 2836
+headWear/bell_hat0/low/bell_hat0.mesh 1459115143 16784
+headWear/bell_hat0/low/bell_hat0_m_hair0.mtins 963235971 1196
+headWear/bell_hat0/low/bell_hat0.ski 2795093998 159
+headWear/bell_hat0/bell_hat0_m_hair0.mtins 735109423 1119
+headWear/bell_hat0/bell_hat0.ski 2795093998 159

@@ -1,0 +1,15 @@
+shorts/qilin_kuzi1/textures/qilin_kuzi1.pvr 1897599386 174900
+shorts/qilin_kuzi1/textures/qilin_kuzi1.ktx 199116743 174880
+shorts/qilin_kuzi1/low/textures/qilin_kuzi1.pvr 3616542419 2868
+shorts/qilin_kuzi1/low/textures/qilin_kuzi1.ktx 2725245106 2836
+shorts/qilin_kuzi1/low/config.json 4187024509 792
+shorts/qilin_kuzi1/low/qilin_kuzi1_qilin_kuzi1.mtins 2314303786 847
+shorts/qilin_kuzi1/low/qilin_kuzi1.ski 1157160676 113
+shorts/qilin_kuzi1/low/qilin_kuzi1.mesh 1549477777 17316
+shorts/qilin_kuzi1/fx/Textures/qilin.pvr 681344007 262196
+shorts/qilin_kuzi1/fx/Textures/qilin.ktx 1934045748 87516
+shorts/qilin_kuzi1/fx/Sample/CostumeEffectBat02.fx 282557864 1411
+shorts/qilin_kuzi1/config.json 4187024509 792
+shorts/qilin_kuzi1/qilin_kuzi1_qilin_kuzi1.mtins 3147479631 851
+shorts/qilin_kuzi1/qilin_kuzi1.ski 1157160676 113
+shorts/qilin_kuzi1/qilin_kuzi1.mesh 1276480929 47340

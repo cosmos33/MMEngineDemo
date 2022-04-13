@@ -1,0 +1,7 @@
+eyes/eye8/textures/eye.ktx 1548225495 100
+eyes/eye8/textures/eye.pvr 2046567143 172
+eyes/eye8/textures/eye8_1.pvr 1971289280 43828
+eyes/eye8/textures/eye8_1.ktx 2700475368 87516
+eyes/eye8/eye8.mesh 1863355171 16457
+eyes/eye8/eye8_eye8.mtins 2627378815 1118
+eyes/eye8/eye8.ski 1231657887 78

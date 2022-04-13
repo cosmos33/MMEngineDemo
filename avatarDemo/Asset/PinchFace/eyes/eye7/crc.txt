@@ -1,0 +1,7 @@
+eyes/eye7/textures/eye7_1.pvr 2923439858 43828
+eyes/eye7/textures/eye7_1.ktx 719406023 87516
+eyes/eye7/textures/eye.ktx 1548225495 100
+eyes/eye7/textures/eye.pvr 2046567143 172
+eyes/eye7/eye7.ski 1763638059 78
+eyes/eye7/eye7_eye7.mtins 756652174 1102
+eyes/eye7/eye7.mesh 1652125319 21509

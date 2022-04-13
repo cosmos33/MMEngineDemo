@@ -1,0 +1,169 @@
+{
+    "tShirt": {
+        "camisole0": "77b5170fe5335f3d31b70c2ee02516d3",
+        "camisole1": "f6a28d6ff84259ad25895b6b29dbc357",
+        "rugbyer_coat01_00": "aa03bcc4c7847d73fb01a4a122258c52",
+        "schoolgirl_shirt": "5d39f6b1b0e5fed67bfac8f65ca89d26",
+        "T_shirt2": "9ac17004c2c36102f0645533616e0bbe",
+        "m_shirt0": "1618f5ab41d09c79040bb6a2ea29d869",
+        "clown_coat01_00": "b3cfbd7ab03aa6efbb350726e73dbe71",
+        "XZ_tShirt01": "2307a68843e54434b39124166905a0c1",
+        "m_shirt1": "8a9d3caa79caa837f077fa24b28ad6a4",
+        "sportswear_jacket3": "4e88564c3f9671e834098700c300f412",
+        "sweatshirt1": "19dd93a53e1bf9231632e1f5d715a391",
+        "sportswear_jacket2": "2a5a730b087e3963acb6f4ec91e61e32",
+        "check_m_coat": "2fd511b2766eee75a0c90fbcc903e271",
+        "sweatshirt0": "ff39a0e59ba37565e6b8deb9a9e9527d",
+        "camisole2": "85f8761b1a8957ca694d317401bd516b",
+        "check_w_coat": "e128b93acd22d40ab1ebf645316b1fee",
+        "T_shirt1": "6085f5749ed324720f4ae16736b5afd8",
+        "spacesuit_jacket0": "dcc1140e271b3b05f255dbc6f3850491",
+        "cowboy_coat01_00": "c0292940a793d3e06c6795fb3b0f0127",
+        "sweatshirt2": "74f997b9c2ac203c555da03165ca9672",
+        "qilin_coat0": "c6764ddd28cfe2bae26df4cbc39e0a0d",
+        "sportswear_jacket0": "28a29b70428a7a7332606dd159cf9d67",
+        "sportswear_jacket1": "7ac8402892df70b0ea5e1e584c49e52d",
+        "qilin_coat1": "41d0a1d4925c045b2f53715826333d67"
+    },
+    "headWear": {
+        "baseball_cap1": "42ea6ed472214739dcbd50aab765bdd3",
+        "baseball_cap0": "dce5bcfb23abbed1fe89ee5937d1cf1e",
+        "bell_hat0": "a8078cbbdb3fd948be62631fb4de6999",
+        "BLZM_hair01": "14eabf695a1889e9facc0f078e71e510",
+        "check_w_headwear": "fd3374803533f36f0b5b6ccfb57c9091"
+    },
+    "UI": {
+        "default": "1ce60811dbcc468e352a9b6a4842789b"
+    },
+    "face": {
+        "face4": "afa1a2cae059f2ede22eb73972f1c04e",
+        "face2": "d5d35b266cb3b802e34f3249407a66e9",
+        "face5": "86e59461c50542cca91a8d8d943fdea2",
+        "face6": "640ab11dda7c5ae5120e3f4fe4ffec3c",
+        "face1": "40d2bd881aab3614c48dca9ed98ac000"
+    },
+    "character": {
+        "momo": "31df388dc8d06e7b6056c35d797f114c"
+    },
+    "brow": {
+        "brow9": "7b97673ecde008b85a31b9aab59a66c8",
+        "brow8": "7429a445e036daf58ec618c32880fe68",
+        "brow1": "f325586d7227aca037eeec9944355e44",
+        "brow6": "56fe755a495cda1e3851c5c34a44ebe6",
+        "brow15": "bc7f259f9700d21024a6e6a926724db5",
+        "normal_brow": "942d3fadd8f39ca3e9edd51501c7705d",
+        "brow2": "60846c92cb1328d2a69bd7b83908bebc",
+        "brow11": "956c5940567be80f644608fd65a53fb8",
+        "brow20": "699bc79dff0664d699790525e92777d1",
+        "brow19": "d21501e8f751600d180003a6c06d7936",
+        "brow21": "2dc6865dea7a45bbdc6bea61463ead21"
+    },
+    "nose": {
+        "nose2": "b7ba287eecec72bf65d64b15138c90bf",
+        "nose4": "4a4e3a24471a320c8875ea28299e6d21",
+        "nose1": "31105e6ef1e2a6f1120b3738cc59d19e"
+    },
+    "mouth": {
+        "mouth2": "75e004ebe4a11603d596f41914c63a89",
+        "mouth5": "635bfa46394b460bb5465c1137bc691e",
+        "mouth3": "497e6dc94188d514fa989f45065dcc2c"
+    },
+    "glasses": {
+        "glasses1": "a150a567298d859cf83f764ca2d5b50f",
+        "CS_glesses01": "8b58f716c1ecf8182f655777dcfc5b2c",
+        "eyeshade01_01": "8577ccdc1b73d3d49cd355d70f79a973",
+        "eyeshade01_00": "adffaf9081a7c0014d12e41f7551b0db",
+        "glasses2": "382d734ac76d36199b21a95cd87c18d5",
+        "glasses3": "4ef87534532ce55789d0f7a195802683",
+        "BA_glasses01": "7d198d9515e574c11fa7bcfa8f6d27e6",
+        "eyeshade01_02": "f27c6be1cb4e00b62e07e48c697fc713",
+        "eyeshade01_03": "335b5998bdfd70810e1e53fbb54dfd97"
+    },
+    "beard": {
+        "beardUp4": "b865c11e2367816253ab6041b13d8e2a",
+        "beardUp3": "fc80a4c52266be51e7e937f0defa1b66",
+        "beardUp2": "df26fc25708bf1eb866a19932406c884",
+        "beardDown5": "76546817b544a8dc0ca463134b7c2e0e",
+        "beardDown3": "3466f17157c81d3321009746493cda91",
+        "beardDown4": "389dd27a55a103a11fe328142ec317d9",
+        "beardUp1": "8693a113e65f16a81416e9c99ba686d1"
+    },
+    "shorts": {
+        "ZMXYM_short01": "d5b045c45bf1a6eb62067d8b2af49300",
+        "clown_pants01_00": "545afe172a26a62911b2b5eda61ce0a8",
+        "sportswear0_pants0": "3ed5ac297b382cc3f7543ad9ecb2b0ee",
+        "sportswear1_pants2": "02f620a2c5147ad88a43183df0a9eae4",
+        "qilin_kuzi0": "bcd99b54aff79767acfdfcf830f1b841",
+        "sportswear0_pants1": "74ef229ba69f4e62b8c5980a3d5de39b",
+        "qilin_kuzi1": "4c41fb8c758fc5ed62c1768fc74f917f",
+        "spacesuit_trousers0": "2daa3cc9aedd24f85c19a5ffa6ca572a",
+        "check_m_bottoms": "ee35b4cde2814b47db1c95fd92abd917",
+        "tight_skirt1": "76723d667c3c7dcda6fa7b6151c7a8bc",
+        "m_shorts0": "e230b3d5c58bfa3fcffe011bf499c5a1",
+        "pants1": "58244267a5f290df44f6d753257439bc",
+        "tight_skirt0": "f55a708323ca3ead2f9215db2220371b",
+        "m_shorts1": "666c6801e9e19e032deb35dd1fd6ff93",
+        "rugbyer_shorts01_00": "de624bfff7067b7b8212718c55e54fb6",
+        "duck_swim_ring0": "46814f750818fa08b88b0f4cc1daf73d",
+        "duck_swim_ring1": "8aeb499624ec2e6dfc9d5dc132697f9a",
+        "sportswear0_pants3": "441e5959b777c18b17309dee33881a8f",
+        "sportswear1_pants1": "619ae3479fbec5152d376827aa930615",
+        "sportswear1_pants0": "a5aebefa9c32e94e6cd91245edbe764e",
+        "sportswear0_pants2": "2fe0033d30d5a06bf8b28243db725749",
+        "XZ_short01": "6d02bce6c9d70d45878ca448dcec7f1c",
+        "check_w_bottoms": "13c32e54c25adaa54f07d57b37cd746d",
+        "tight_skirt2": "3f862df7bfe867e17b3ab3ba71315ffa",
+        "cowboy_pants01_00": "509e401adbde3ab1ff0df7492fc82966",
+        "m_shorts2": "785f6f9048663a50f2876cbf309c5f5c"
+    },
+    "suit": {
+        "BLZM_tShirt01": "94d470a6304656e5b2e74a64b1f2e4ea",
+        "CS_tShirt01": "58547fee0f21f4c40b50fb94667b5d89",
+        "CNZ_suit01": "1fcf29c2807764c91391efa5d78c2aef",
+        "BA_suit01": "e031090cb04182b26c9c7120fa463289"
+    },
+    "lips": {
+        "Lipstick02": "bb12f2e7d8efbacb1ecd3e1a0554c72e",
+        "Lipstick01": "f2a9c52de3d4fc7fe08f2299d2d3e1d3"
+    },
+    "scene": {
+        "default": "14c3899ca5487a34108db9ea6d0d56a6"
+    },
+    "shoes": {
+        "shoes1": "28bafafe7d2c1e7cce205aed5760aecf",
+        "shoes5": "7febb94a417633126684ab1e44b25b91",
+        "shoes2": "d7453e41accb90bb6b6b862ca31f9a14",
+        "shoes3": "d1c0e2fcbc74f314d7b2fea70dbaab69",
+        "shoes4": "5afbe1ed10673d95ebe6306f4611cef7"
+    },
+    "eyes": {
+        "eye12": "415a123078833b84797f40478fba696f",
+        "eye5": "1ae47c10ae6bb96f6d85fcf6ec5cc328",
+        "eye2": "87b8a96302064269f2188d3e54b957f4",
+        "eye3": "10c11451b7de49f0626bb07e5b6dd0ec",
+        "eye4": "c2ed6c3a208eb0d60c713132a931bc6b",
+        "eye10": "919b6d491c2635b96aaa8f1f00e05afc",
+        "eye11": "1127af0a0cfabef80f0c185bf121aefa",
+        "eye1": "47534ed2222423b42f62e89e7556f2c9",
+        "eye6": "09d1ba7eb58557fe771b35090381e997",
+        "eye8": "0fa97b0d003f772457e2c211bbd69db7",
+        "eye9": "eb55969cf8bff93baf9a843f86d946fb",
+        "eye7": "12ad4e2f82bfe4598cef668ce1d206f7",
+        "eye0": "a9a8f29ff8e2fd97ee7908227a131693"
+    },
+    "hair": {
+        "m_hair2": "e1c36c28d5ecd63462ca6d0608504b35",
+        "m_hair4": "ff07b254a375d579f3143d2d829520d0",
+        "m_hair3": "bd3061a644e0a3481f9fac6646fff8a4",
+        "afro": "c64110cdfff50290b7a425f2019980c7",
+        "w_hair4": "4bcd6aecde74de65786cc0e3d6f438e0",
+        "w_hair3": "7289f1953ccd9b36078e947587363593",
+        "w_hair2": "ad6864508397f96b2d76004b19203c40",
+        "m_hair1": "cf2283b4fb3dca65c129991f1dcec16e",
+        "m_hair0": "3950ffedef2148e10cff8fe18c94fea5",
+        "elvis": "066333833918980fa641ac00e2139d27",
+        "w_hair0": "f771d00364cbf69535be02bb7b4e529e",
+        "w_hair1": "bdb1646190a23dd72da980eb6e50feb5",
+        "CS_hair01": "5409ec6721aafe54b96993c0b8b4092f"
+    }
+}

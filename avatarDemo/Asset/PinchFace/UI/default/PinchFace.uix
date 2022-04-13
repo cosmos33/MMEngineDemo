@@ -1,0 +1,2418 @@
+MOXB<XUI Version="9">
+ <Node Name="Canvas" UserData="" Type="Scene" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4285597001" HolderGUID="1976097983">
+	<Scale x="1" y="1"/>
+	<Position x="0" y="0"/>
+	<Anchor x="0" y="0"/>
+	<Size x="750" y="1334"/>
+	<Components>
+	 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+	</Components>
+	<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+	 <color a="1" r="1" g="1" b="1"/>
+	 <TouchAreaOffset x="0" y="0"/>
+	 <TouchAreaSize x="0" y="0"/>
+	</Widget>
+	<Panel RenderOrder="0" AutoBatch="1"/>
+	<Scene>
+	 <DesignResolution x="750" y="1334"/>
+	 <Policy Policy="5"/>
+	 <AdaptNotch AdaptNotch="1"/>
+	 <CustomPolicy CustomPolicy="1"/>
+	 <CustomAspect CustomAspect="1.777"/>
+	 <UpperPolicy UpperPolicy="5"/>
+	 <LowerPolicy LowerPolicy="4"/>
+	</Scene>
+	<Children>
+	 <Node Name="Bottom_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2013034018" HolderGUID="0">
+		<Scale x="1" y="1"/>
+		<Position x="375" y="1334"/>
+		<Anchor x="0.5" y="0.5"/>
+		<Size x="0" y="0"/>
+		<Components>
+		 <UINodeComponent Name="WidgetAlignment" Enable="1" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="2" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+		</Components>
+		<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="1" Align_HEdge="0" Align_VEdge="2" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+		 <color a="1" r="1" g="1" b="1"/>
+		 <TouchAreaOffset x="0" y="0"/>
+		 <TouchAreaSize x="0" y="0"/>
+		</Widget>
+		<Children>
+		 <Node Name="Bottom_Widget_DQ" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="160788526" HolderGUID="2013034018">
+			<Scale x="1" y="1"/>
+			<Position x="0" y="0"/>
+			<Anchor x="0.5" y="0.5"/>
+			<Size x="0" y="0"/>
+			<Components>
+			 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+			</Components>
+			<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+			 <color a="1" r="1" g="1" b="1"/>
+			 <TouchAreaOffset x="0" y="0"/>
+			 <TouchAreaSize x="0" y="0"/>
+			</Widget>
+			<Children>
+			 <Node Name="FaceToward_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="489443895" HolderGUID="160788526">
+				<Scale x="1" y="1"/>
+				<Position x="0" y="0"/>
+				<Anchor x="0.5" y="0.5"/>
+				<Size x="0" y="0"/>
+				<Components>
+				 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+				</Components>
+				<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+				 <color a="1" r="1" g="1" b="1"/>
+				 <TouchAreaOffset x="0" y="0"/>
+				 <TouchAreaSize x="0" y="0"/>
+				</Widget>
+				<Children>
+				 <Node Name="FaceTowardBg_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3051996688" HolderGUID="489443895">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="100"/>
+					<Anchor x="0.5" y="1"/>
+					<Size x="750" y="250"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+					 <CurrentTag CurrentTag="0"/>
+					 <UVTile x="1" y="1"/>
+					 <ImageType ImageType="0"/>
+					 <ImageFillMode ImageFillMode="0"/>
+					 <FillOrigin FillOrigin="0"/>
+					 <TListUVLT x="0.29492188" y="0.32421875"/>
+					 <TListUVBR x="0.35742188" y="0.38671875"/>
+					 <CameraLocation x="0" y="0" z="0"/>
+					 <CameraRotation x="0" y="0" z="0" w="1"/>
+					 <Textures Number="1">
+						<Texture Tag="0" Type="1" Name="Bg.tga" Path="Textures/Pinch.plist" Relative="1"/>
+					 </Textures>
+					 <MaskTexture UseMaskTexture="0"/>
+					</Image>
+					<Children/>
+				 </Node>
+				 <Node Name="PositiveFace_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="259133370" HolderGUID="489443895">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="0"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="0" y="0"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Children>
+					 <Node Name="PositiveFace_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2111250775" HolderGUID="259133370" Checkable="0" Checked="0" ClickAnim="0" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+						<Scale x="1" y="1"/>
+						<Position x="-56" y="-72"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="100" y="80"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="100" y="80"/>
+						</Widget>
+						<ClickAnimTrans x="0" y="0"/>
+						<ProtectedChildren>
+						 <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4257563052" HolderGUID="2111250775">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="100" y="80"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="-1"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0" y="0"/>
+							 <TListUVBR x="1" y="1"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="0"/>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						</ProtectedChildren>
+						<Children>
+						 <Node Name="PositiveFace_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3219404402" HolderGUID="2111250775">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="46" y="48"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="0.7019608" r="0.9254902" g="0" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="1" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.44140625" y="0.009765625"/>
+							 <TListUVBR x="0.48632813" y="0.056640625"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="Face.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						 <Node Name="PositiveFaceBg_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2622290083" HolderGUID="2111250775">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="95.0914" y="72"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.12890625" y="0.32226563"/>
+							 <TListUVBR x="0.2265625" y="0.39257813"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="Rec_choose.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						</Children>
+					 </Node>
+					</Children>
+				 </Node>
+				 <Node Name="SideFace_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4043292154" HolderGUID="489443895">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="0"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="0" y="0"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Children>
+					 <Node Name="SideFace_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2262296778" HolderGUID="4043292154" Checkable="0" Checked="0" ClickAnim="0" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+						<Scale x="1" y="1"/>
+						<Position x="56" y="-72"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="100" y="80"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="100" y="80"/>
+						</Widget>
+						<ClickAnimTrans x="0" y="0"/>
+						<ProtectedChildren>
+						 <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1874087423" HolderGUID="2262296778">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="100" y="80"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="-1"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0" y="0"/>
+							 <TListUVBR x="1" y="1"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="0"/>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						</ProtectedChildren>
+						<Children>
+						 <Node Name="SideFaceBg_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1307957609" HolderGUID="2262296778">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="95.0914" y="72"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.12890625" y="0.32226563"/>
+							 <TListUVBR x="0.2265625" y="0.39257813"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="Rec_choose.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						 <Node Name="SideFace_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1793087610" HolderGUID="2262296778">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="45" y="48"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="0.49803922" r="0.19607843" g="0.2" b="0.2"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="1" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.21875" y="0.40234375"/>
+							 <TListUVBR x="0.26269531" y="0.44921875"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="Face01.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						</Children>
+					 </Node>
+					</Children>
+				 </Node>
+				</Children>
+			 </Node>
+			 <Node Name="ClassifyADetail_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3334267707" HolderGUID="160788526">
+				<Scale x="1" y="1"/>
+				<Position x="0" y="0"/>
+				<Anchor x="0.5" y="0.5"/>
+				<Size x="0" y="0"/>
+				<Components>
+				 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+				</Components>
+				<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+				 <color a="1" r="1" g="1" b="1"/>
+				 <TouchAreaOffset x="0" y="0"/>
+				 <TouchAreaSize x="0" y="0"/>
+				</Widget>
+				<Children>
+				 <Node Name="BottomBgImage" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1827682577" HolderGUID="3334267707">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="100"/>
+					<Anchor x="0.5" y="1"/>
+					<Size x="750" y="648"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+					 <CurrentTag CurrentTag="0"/>
+					 <UVTile x="1" y="1"/>
+					 <ImageType ImageType="0"/>
+					 <ImageFillMode ImageFillMode="0"/>
+					 <FillOrigin FillOrigin="0"/>
+					 <TListUVLT x="0.29492188" y="0.32421875"/>
+					 <TListUVBR x="0.35742188" y="0.38671875"/>
+					 <CameraLocation x="0" y="0" z="0"/>
+					 <CameraRotation x="0" y="0" z="0" w="1"/>
+					 <Textures Number="1">
+						<Texture Tag="0" Type="1" Name="Bg.tga" Path="Textures/Pinch.plist" Relative="1"/>
+					 </Textures>
+					 <MaskTexture UseMaskTexture="0"/>
+					</Image>
+					<Children/>
+				 </Node>
+				 <Node Name="Classify_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1511359146" HolderGUID="3334267707">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="-500"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="0" y="0"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Children>
+					 <Node Name="Classify_VirtualListView" UserData="" Type="VirtualListView" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="1" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3955991957" HolderGUID="1511359146">
+						<Scale x="1" y="1"/>
+						<Position x="-375" y="-46"/>
+						<Anchor x="0" y="0"/>
+						<Size x="758" y="88"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						 <UINodeComponent Name="MaskComponent" Enable="1" Type="MaskComponent" CheckPerframe="1"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="0" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="758" y="88"/>
+						</Widget>
+						<VirtualListView BounceEnabled="1" InertiaScrollEnabled="1" LeftPadding="0" RightPadding="0" TopPadding="0" BottomPadding="0" SpaceX="0" SpaceY="0" Direction="0" OldDirection="0" Layout="0" LineOrColumnCount="1"/>
+						<ProtectedChildren>
+						 <Node Name="BackGround" UserData="" Type="Image" Protected="1" LZ="-1" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="1" GUID="1508878316" HolderGUID="3955991957">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0" y="0"/>
+							<Size x="758" y="88"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="0" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="-1"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0" y="0"/>
+							 <TListUVBR x="1" y="1"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="0"/>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						 <Node Name="Container" UserData="" Type="Widget" Protected="1" LZ="-2" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="1" GUID="696603491" HolderGUID="3955991957">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0" y="0"/>
+							<Size x="0" y="0"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Children/>
+						 </Node>
+						</ProtectedChildren>
+					 </Node>
+					 <Node Name="C_XZ_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="356530627" HolderGUID="1511359146">
+						<Scale x="1" y="1"/>
+						<Position x="0" y="0"/>
+						<Anchor x="0" y="0"/>
+						<Size x="100" y="72"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="1" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="0"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.12890625" y="0.32226563"/>
+						 <TListUVBR x="0.2265625" y="0.39257813"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="1">
+							<Texture Tag="0" Type="1" Name="Rec_choose.png" Path="Textures/Pinch.plist" Relative="1"/>
+						 </Textures>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children>
+						 <Node Name="C_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2883559509" HolderGUID="356530627">
+							<Scale x="1" y="1"/>
+							<Position x="50" y="36"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="43" y="40"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.49609375" y="0.009765625"/>
+							 <TListUVBR x="0.53808594" y="0.048828125"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="Icon_Lipstick.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children/>
+						 </Node>
+						</Children>
+					 </Node>
+					</Children>
+				 </Node>
+				 <Node Name="Detail_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1306533479" HolderGUID="3334267707">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="-228"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="0" y="0"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Children>
+					 <Node Name="Detail_PageView" UserData="" Type="PageView" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1608672580" HolderGUID="1306533479">
+						<Scale x="1" y="1"/>
+						<Position x="-375" y="0"/>
+						<Anchor x="0" y="0.5"/>
+						<Size x="750" y="456"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						 <UINodeComponent Name="MaskComponent" Enable="1" Type="MaskComponent" CheckPerframe="1"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="750" y="456"/>
+						</Widget>
+						<Layout ClippingEnabled="1" Order="0">
+						 <ProtectedChildren>
+							<Node Name="" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="176048698" HolderGUID="1608672580">
+							 <Scale x="1" y="1"/>
+							 <Position x="0" y="0"/>
+							 <Anchor x="0" y="0.5"/>
+							 <Size x="750" y="456"/>
+							 <Components>
+								<UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							 </Components>
+							 <Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								<color a="1" r="1" g="1" b="1"/>
+								<TouchAreaOffset x="0" y="0"/>
+								<TouchAreaSize x="0" y="0"/>
+							 </Widget>
+							 <Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								<CurrentTag CurrentTag="-1"/>
+								<UVTile x="1" y="1"/>
+								<ImageType ImageType="0"/>
+								<ImageFillMode ImageFillMode="0"/>
+								<FillOrigin FillOrigin="0"/>
+								<TListUVLT x="0" y="0"/>
+								<TListUVBR x="1" y="1"/>
+								<CameraLocation x="0" y="0" z="0"/>
+								<CameraRotation x="0" y="0" z="0" w="1"/>
+								<Textures Number="0"/>
+								<MaskTexture UseMaskTexture="0"/>
+							 </Image>
+							 <Children/>
+							</Node>
+						 </ProtectedChildren>
+						</Layout>
+						<ScrollView Direction="2" InertiaScrollEnabled="0" BounceEnabled="0" ScrollBarEnabled="0" ScrollBarWidth="5" ScrollBarTexture="">
+						 <ScrollBarColor a="0.80000001" r="1" g="1" b="1"/>
+						 <ProtectedChildren>
+							<Node Name="InnerContainer" UserData="" Type="Layout" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1959736967" HolderGUID="1608672580">
+							 <Scale x="1" y="1"/>
+							 <Position x="0" y="0"/>
+							 <Anchor x="0" y="0"/>
+							 <Size x="750" y="456"/>
+							 <Components>
+								<UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								<UINodeComponent Name="LayoutComponent" Enable="1" Type="LayoutComponent" ResizeMode="1" AxisDirection="0" LayoutHAlignment="0" LayoutVAlignment="0" LayoutType="2" LeftPadding="0" RightPadding="0" TopPadding="0" BottomPadding="0" SpaceX="0" SpaceY="0" AutoLayout="0" LineIndent="10">
+								 <BaseLayoutSize x="750" y="456"/>
+								</UINodeComponent>
+							 </Components>
+							 <Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								<color a="1" r="1" g="1" b="1"/>
+								<TouchAreaOffset x="0" y="0"/>
+								<TouchAreaSize x="0" y="0"/>
+							 </Widget>
+							 <Layout ClippingEnabled="0" Order="0">
+								<ProtectedChildren>
+								 <Node Name="" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1661964276" HolderGUID="1608672580">
+									<Scale x="1" y="1"/>
+									<Position x="0" y="0"/>
+									<Anchor x="0" y="0"/>
+									<Size x="750" y="456"/>
+									<Components>
+									 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+									</Components>
+									<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+									 <color a="1" r="1" g="1" b="1"/>
+									 <TouchAreaOffset x="0" y="0"/>
+									 <TouchAreaSize x="0" y="0"/>
+									</Widget>
+									<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+									 <CurrentTag CurrentTag="-1"/>
+									 <UVTile x="1" y="1"/>
+									 <ImageType ImageType="0"/>
+									 <ImageFillMode ImageFillMode="0"/>
+									 <FillOrigin FillOrigin="0"/>
+									 <TListUVLT x="0" y="0"/>
+									 <TListUVBR x="1" y="1"/>
+									 <CameraLocation x="0" y="0" z="0"/>
+									 <CameraRotation x="0" y="0" z="0" w="1"/>
+									 <Textures Number="0"/>
+									 <MaskTexture UseMaskTexture="0"/>
+									</Image>
+									<Children/>
+								 </Node>
+								</ProtectedChildren>
+							 </Layout>
+							 <Children/>
+							</Node>
+						 </ProtectedChildren>
+						</ScrollView>
+						<ListView Gravity="5" MagneticType="1" ItemsMargin="0"/>
+						<PageView IndicatorEnabled="0">
+						 <IPosAnchor x="0.5" y="0.89999998"/>
+						 <IndicatorSpace IndicatorSpace="-1"/>
+						 <IndicatorSelectedColor a="0" r="0" g="0" b="0"/>
+						 <IndicatorIndexColor a="0" r="0" g="0" b="0"/>
+						 <IndicatorScale IndicatorScale="-1"/>
+						</PageView>
+						<Children/>
+					 </Node>
+					 <Node Name="DetailPage_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="576938851" HolderGUID="1306533479">
+						<Scale x="1" y="1"/>
+						<Position x="-375" y="0"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="0" y="0"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Children>
+						 <Node Name="DetailMain_Image01" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1534839522" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="93.75" y="-138"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image01" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="356492043" HolderGUID="1534839522">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image01" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="640273342" HolderGUID="1534839522">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX01" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2482491398" HolderGUID="1534839522">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						 <Node Name="DetailMain_Image02" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="98331285" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="281.25" y="-138"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image02" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3785543530" HolderGUID="98331285">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image02" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2295532196" HolderGUID="98331285">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX02" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3013273880" HolderGUID="98331285">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						 <Node Name="DetailMain_Image03" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="163184700" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="468.75" y="-138"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image03" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2868915907" HolderGUID="163184700">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image03" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3681213004" HolderGUID="163184700">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX03" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3248813669" HolderGUID="163184700">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						 <Node Name="DetailMain_Image04" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2044786438" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="656.25" y="-138"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image04" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="896002361" HolderGUID="2044786438">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image04" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1020372242" HolderGUID="2044786438">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX04" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4054809732" HolderGUID="2044786438">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						 <Node Name="DetailMain_Image05" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="733274726" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="93.75" y="70"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image05" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2280002887" HolderGUID="733274726">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image05" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="427983076" HolderGUID="733274726">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX05" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2226319168" HolderGUID="733274726">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						 <Node Name="DetailMain_Image06" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3491660444" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="281.25" y="70"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image06" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1793802818" HolderGUID="3491660444">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image06" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1837532763" HolderGUID="3491660444">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX06" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3122686553" HolderGUID="3491660444">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						 <Node Name="DetailMain_Image07" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2826712277" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="468.75" y="70"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image07" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2300683205" HolderGUID="2826712277">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image07" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2035890097" HolderGUID="2826712277">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX07" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2877977424" HolderGUID="2826712277">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						 <Node Name="DetailMain_Image08" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1708780009" HolderGUID="576938851">
+							<Scale x="1" y="1"/>
+							<Position x="656.25" y="70"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="140" y="140"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="0" y="0"/>
+							</Widget>
+							<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+							 <CurrentTag CurrentTag="0"/>
+							 <UVTile x="1" y="1"/>
+							 <ImageType ImageType="0"/>
+							 <ImageFillMode ImageFillMode="0"/>
+							 <FillOrigin FillOrigin="0"/>
+							 <TListUVLT x="0.29492188" y="0.009765625"/>
+							 <TListUVBR x="0.43164063" y="0.14648438"/>
+							 <CameraLocation x="0" y="0" z="0"/>
+							 <CameraRotation x="0" y="0" z="0" w="1"/>
+							 <Textures Number="1">
+								<Texture Tag="0" Type="1" Name="None.png" Path="Textures/Pinch.plist" Relative="1"/>
+							 </Textures>
+							 <MaskTexture UseMaskTexture="0"/>
+							</Image>
+							<Children>
+							 <Node Name="P1_DetailChoose_Image08" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1475316587" HolderGUID="1708780009">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="98"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="34" y="34"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.21875" y="0.45898438"/>
+								 <TListUVBR x="0.25195313" y="0.4921875"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose01.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="P1_DetailChooseRec_Image08" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3643171746" HolderGUID="1708780009">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="142" y="142"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.12890625" y="0.009765625"/>
+								 <TListUVBR x="0.28515625" y="0.16601563"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="Choose_Rec.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							 <Node Name="Loading_UIFX08" UserData="" Type="UIFX" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="357651182" HolderGUID="1708780009">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="150" y="150"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<FX FX_Path="fx/Sample/Loading" Relative="1" FX_AutoPlay="1" FX_Layer="2"/>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						</Children>
+					 </Node>
+					 <Node Name="Page_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2927196445" HolderGUID="1306533479">
+						<Scale x="1" y="1"/>
+						<Position x="0" y="208"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="15" y="15"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="0.72941178" g="0.72941178" b="0.72941178"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="0"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.47460938" y="0.15625"/>
+						 <TListUVBR x="0.51464844" y="0.19628906"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="1">
+							<Texture Tag="0" Type="1" Name="Sphere.png" Path="Textures/Pinch.plist" Relative="1"/>
+						 </Textures>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children/>
+					 </Node>
+					</Children>
+				 </Node>
+				 <Node Name="Undo_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2760970182" HolderGUID="3334267707">
+					<Scale x="1" y="1"/>
+					<Position x="375" y="-600"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="0" y="0"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="1" Type="WidgetAlignment" Align_HEdge="2" Align_VEdge="0" Align_LMargin="0" Align_RMargin="-375" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="1" Align_HEdge="2" Align_VEdge="0" Align_LMargin="0" Align_RMargin="-375" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Children>
+					 <Node Name="UndoBg_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="153810707" HolderGUID="2760970182">
+						<Scale x="1" y="1"/>
+						<Position x="-174.9398" y="0"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="82" y="82"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="0"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.12890625" y="0.40234375"/>
+						 <TListUVBR x="0.20898438" y="0.48242188"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="1">
+							<Texture Tag="0" Type="1" Name="Do_Bg.png" Path="Textures/Pinch.plist" Relative="1"/>
+						 </Textures>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children>
+						 <Node Name="Undo_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="567955274" HolderGUID="153810707" Checkable="0" Checked="0" ClickAnim="0" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="36" y="30"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="0.49803922" r="0.19607843" g="0.2" b="0.2"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="78" y="78"/>
+							</Widget>
+							<ClickAnimTrans x="0" y="0"/>
+							<ProtectedChildren>
+							 <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1709768471" HolderGUID="567955274">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="36" y="30"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="0.49803922" r="0.19607843" g="0.2" b="0.2"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="-1"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.47460938" y="0.20605469"/>
+								 <TListUVBR x="0.50976563" y="0.23535156"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="0"/>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							</ProtectedChildren>
+							<Children>
+							 <Node Name="Undo_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1404541262" HolderGUID="567955274">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="36" y="30"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="0.65490198" g="0.65490198" b="0.65490198"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.47460938" y="0.20605469"/>
+								 <TListUVBR x="0.50976563" y="0.23535156"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="undo.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						</Children>
+					 </Node>
+					 <Node Name="RedoBg_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4273620022" HolderGUID="2760970182">
+						<Scale x="1" y="1"/>
+						<Position x="-81.587502" y="0"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="82" y="82"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="0"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.12890625" y="0.40234375"/>
+						 <TListUVBR x="0.20898438" y="0.48242188"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="1">
+							<Texture Tag="0" Type="1" Name="Do_Bg.png" Path="Textures/Pinch.plist" Relative="1"/>
+						 </Textures>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children>
+						 <Node Name="Redo_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3929948473" HolderGUID="4273620022" Checkable="0" Checked="0" ClickAnim="0" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+							<Scale x="1" y="1"/>
+							<Position x="0" y="0"/>
+							<Anchor x="0.5" y="0.5"/>
+							<Size x="78" y="78"/>
+							<Components>
+							 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+							</Components>
+							<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+							 <color a="1" r="1" g="1" b="1"/>
+							 <TouchAreaOffset x="0" y="0"/>
+							 <TouchAreaSize x="78" y="78"/>
+							</Widget>
+							<ClickAnimTrans x="0" y="0"/>
+							<ProtectedChildren>
+							 <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1090613761" HolderGUID="3929948473">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="78" y="78"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="1" g="1" b="1"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="-1"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0" y="0"/>
+								 <TListUVBR x="1" y="1"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="0"/>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							</ProtectedChildren>
+							<Children>
+							 <Node Name="Redo_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="999913177" HolderGUID="3929948473">
+								<Scale x="1" y="1"/>
+								<Position x="0" y="0"/>
+								<Anchor x="0.5" y="0.5"/>
+								<Size x="36" y="30"/>
+								<Components>
+								 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+								</Components>
+								<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+								 <color a="1" r="0.65490198" g="0.65490198" b="0.65490198"/>
+								 <TouchAreaOffset x="0" y="0"/>
+								 <TouchAreaSize x="0" y="0"/>
+								</Widget>
+								<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="1" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+								 <CurrentTag CurrentTag="0"/>
+								 <UVTile x="1" y="1"/>
+								 <ImageType ImageType="0"/>
+								 <ImageFillMode ImageFillMode="0"/>
+								 <FillOrigin FillOrigin="0"/>
+								 <TListUVLT x="0.47460938" y="0.20605469"/>
+								 <TListUVBR x="0.50976563" y="0.23535156"/>
+								 <CameraLocation x="0" y="0" z="0"/>
+								 <CameraRotation x="0" y="0" z="0" w="1"/>
+								 <Textures Number="1">
+									<Texture Tag="0" Type="1" Name="undo.png" Path="Textures/Pinch.plist" Relative="1"/>
+								 </Textures>
+								 <MaskTexture UseMaskTexture="0"/>
+								</Image>
+								<Children/>
+							 </Node>
+							</Children>
+						 </Node>
+						</Children>
+					 </Node>
+					</Children>
+				 </Node>
+				 <Node Name="PinchFace_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2750071346" HolderGUID="3334267707">
+                    <Scale x="1" y="1"/>
+                    <Position x="0" y="-600"/>
+                    <Anchor x="0.5" y="0.5"/>
+                    <Size x="750" y="100"/>
+                    <Components>
+                     <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="1" Align_VEdge="0" Align_LMargin="0" Align_RMargin="-375" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+                    </Components>
+                    <Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1">
+                     <color a="1" r="1" g="1" b="1"/>
+                     <TouchAreaOffset x="0" y="0"/>
+                     <TouchAreaSize x="0" y="0"/>
+                    </Widget>
+                    <Children>
+                     <Node Name="PinchFace_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4260091190" HolderGUID="2750071346" Checkable="0" Checked="0" ClickAnim="1" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+                        <Scale x="1" y="1"/>
+                        <Position x="-330" y="0"/>
+                        <Anchor x="0.5" y="0.5"/>
+                        <Size x="90" y="90"/>
+                        <Components>
+                         <UINodeComponent Name="WidgetAlignment" Enable="1" Type="WidgetAlignment" Align_HEdge="1" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+                        </Components>
+                        <Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1">
+                         <color a="0.49803922" r="0.19607843" g="0.2" b="0.2"/>
+                         <TouchAreaOffset x="0" y="0"/>
+                         <TouchAreaSize x="78" y="78"/>
+                        </Widget>
+                        <ClickAnimTrans x="0" y="0"/>
+                        <ProtectedChildren>
+                         <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2482492641" HolderGUID="4260091190">
+                            <Scale x="1" y="1"/>
+                            <Position x="0" y="0"/>
+                            <Anchor x="0.5" y="0.5"/>
+                            <Size x="90" y="90"/>
+                            <Components>
+                             <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+                            </Components>
+                            <Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1">
+                             <color a="0.49803922" r="0.19607843" g="0.2" b="0.2"/>
+                             <TouchAreaOffset x="0" y="0"/>
+                             <TouchAreaSize x="0" y="0"/>
+                            </Widget>
+                            <Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+                             <CurrentTag CurrentTag="-1"/>
+                             <UVTile x="1" y="1"/>
+                             <ImageType ImageType="0"/>
+                             <ImageFillMode ImageFillMode="0"/>
+                             <FillOrigin FillOrigin="0"/>
+                             <TListUVLT x="0.47460938" y="0.20605469"/>
+                             <TListUVBR x="0.50976563" y="0.23535156"/>
+                             <CameraLocation x="0" y="0" z="0"/>
+                             <CameraRotation x="0" y="0" z="0" w="1"/>
+                             <Textures Number="0"/>
+                             <MaskTexture UseMaskTexture="0"/>
+                            </Image>
+                            <Children/>
+                         </Node>
+                        </ProtectedChildren>
+                        <Children>
+                         <Node Name="PinchFace_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1384098543" HolderGUID="4260091190">
+                            <Scale x="1" y="1"/>
+                            <Position x="0" y="0"/>
+                            <Anchor x="0.5" y="0.5"/>
+                            <Size x="92" y="92"/>
+                            <Components>
+                             <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="1" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+                            </Components>
+                            <Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1">
+                             <color a="1" r="1" g="1" b="1"/>
+                             <TouchAreaOffset x="0" y="0"/>
+                             <TouchAreaSize x="0" y="0"/>
+                            </Widget>
+                            <Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+                             <CurrentTag CurrentTag="0"/>
+                             <UVTile x="1" y="1"/>
+                             <ImageType ImageType="0"/>
+                             <ImageFillMode ImageFillMode="0"/>
+                             <FillOrigin FillOrigin="0"/>
+                             <TListUVLT x="0.29492188" y="0.15625"/>
+                             <TListUVBR x="0.38476563" y="0.24609375"/>
+                             <CameraLocation x="0" y="0" z="0"/>
+                             <CameraRotation x="0" y="0" z="0" w="1"/>
+                             <Textures Number="1">
+                                <Texture Tag="0" Type="1" Name="Button_PinchFace.png" Path="Textures/Pinch.plist" Relative="1"/>
+                             </Textures>
+                             <MaskTexture UseMaskTexture="0"/>
+                            </Image>
+                            <Children/>
+                         </Node>
+                        </Children>
+                     </Node>
+                    </Children>
+                 </Node>
+				</Children>
+			 </Node>
+			</Children>
+		 </Node>
+		</Children>
+	 </Node>
+	 <Node Name="TopLeft_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4052504978" HolderGUID="0">
+		<Scale x="1" y="1"/>
+		<Position x="0" y="0"/>
+		<Anchor x="0.5" y="0.5"/>
+		<Size x="0" y="0"/>
+		<Components>
+		 <UINodeComponent Name="WidgetAlignment" Enable="1" Type="WidgetAlignment" Align_HEdge="1" Align_VEdge="1" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+		</Components>
+		<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="1" Align_HEdge="1" Align_VEdge="1" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+		 <color a="1" r="1" g="1" b="1"/>
+		 <TouchAreaOffset x="0" y="0"/>
+		 <TouchAreaSize x="0" y="0"/>
+		</Widget>
+		<Children>
+		 <Node Name="TopLeft_Widget_DQ" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3851374035" HolderGUID="4052504978">
+			<Scale x="1" y="1"/>
+			<Position x="0" y="0"/>
+			<Anchor x="0.5" y="0.5"/>
+			<Size x="0" y="0"/>
+			<Components>
+			 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+			</Components>
+			<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+			 <color a="1" r="1" g="1" b="1"/>
+			 <TouchAreaOffset x="0" y="0"/>
+			 <TouchAreaSize x="0" y="0"/>
+			</Widget>
+			<Children>
+			 <Node Name="Return_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1900519549" HolderGUID="3851374035" Checkable="0" Checked="0" ClickAnim="0" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+				<Scale x="1" y="1"/>
+				<Position x="62.997509" y="60"/>
+				<Anchor x="0.5" y="0.5"/>
+				<Size x="20" y="38"/>
+				<Components>
+				 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+				</Components>
+				<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+				 <color a="1" r="1" g="1" b="1"/>
+				 <TouchAreaOffset x="0" y="0"/>
+				 <TouchAreaSize x="30" y="38"/>
+				</Widget>
+				<ClickAnimTrans x="0" y="0"/>
+				<ProtectedChildren>
+				 <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2140940367" HolderGUID="1900519549">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="0"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="20" y="38"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+					 <CurrentTag CurrentTag="0"/>
+					 <UVTile x="1" y="1"/>
+					 <ImageType ImageType="0"/>
+					 <ImageFillMode ImageFillMode="0"/>
+					 <FillOrigin FillOrigin="0"/>
+					 <TListUVLT x="0.23632813" y="0.32226563"/>
+					 <TListUVBR x="0.25585938" y="0.359375"/>
+					 <CameraLocation x="0" y="0" z="0"/>
+					 <CameraRotation x="0" y="0" z="0" w="1"/>
+					 <Textures Number="1">
+						<Texture Tag="0" Type="1" Name="Button_Return.png" Path="Textures/Pinch.plist" Relative="1"/>
+					 </Textures>
+					 <MaskTexture UseMaskTexture="0"/>
+					</Image>
+					<Children/>
+				 </Node>
+				</ProtectedChildren>
+				<Children/>
+			 </Node>
+			</Children>
+		 </Node>
+		</Children>
+	 </Node>
+	 <Node Name="Right_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3948921460" HolderGUID="0">
+		<Scale x="1" y="1"/>
+		<Position x="750" y="126"/>
+		<Anchor x="0.5" y="0.5"/>
+		<Size x="0" y="0"/>
+		<Components>
+		 <UINodeComponent Name="WidgetAlignment" Enable="1" Type="WidgetAlignment" Align_HEdge="2" Align_VEdge="1" Align_LMargin="0" Align_RMargin="0" Align_TMargin="126" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+		</Components>
+		<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="1" Align_HEdge="2" Align_VEdge="1" Align_LMargin="0" Align_RMargin="0" Align_TMargin="126" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+		 <color a="1" r="1" g="1" b="1"/>
+		 <TouchAreaOffset x="0" y="0"/>
+		 <TouchAreaSize x="0" y="0"/>
+		</Widget>
+		<Children>
+		 <Node Name="Right_Widget_Widget_DQ" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3225841791" HolderGUID="3948921460">
+			<Scale x="1" y="1"/>
+			<Position x="0" y="0"/>
+			<Anchor x="0.5" y="0.5"/>
+			<Size x="0" y="0"/>
+			<Components>
+			 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+			</Components>
+			<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+			 <color a="1" r="1" g="1" b="1"/>
+			 <TouchAreaOffset x="0" y="0"/>
+			 <TouchAreaSize x="0" y="0"/>
+			</Widget>
+			<Children>
+			 <Node Name="ColorBg_ListViewImage" UserData="" Type="Image" Protected="0" LZ="0" GZ="0.1" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3231454400" HolderGUID="3225841791">
+				<Scale x="1" y="1"/>
+				<Position x="-86" y="276.60629"/>
+				<Anchor x="0.5" y="0.5"/>
+				<Size x="100" y="552"/>
+				<Components>
+				 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+				</Components>
+				<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+				 <color a="1" r="1" g="1" b="1"/>
+				 <TouchAreaOffset x="0" y="0"/>
+				 <TouchAreaSize x="0" y="0"/>
+				</Widget>
+				<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+				 <CurrentTag CurrentTag="0"/>
+				 <UVTile x="1" y="1"/>
+				 <ImageType ImageType="0"/>
+				 <ImageFillMode ImageFillMode="0"/>
+				 <FillOrigin FillOrigin="0"/>
+				 <TListUVLT x="0.009765625" y="0.009765625"/>
+				 <TListUVBR x="0.11914063" y="0.61523438"/>
+				 <CameraLocation x="0" y="0" z="0"/>
+				 <CameraRotation x="0" y="0" z="0" w="1"/>
+				 <Textures Number="1">
+					<Texture Tag="0" Type="1" Name="Color_Range.png" Path="Textures/Pinch.plist" Relative="1"/>
+				 </Textures>
+				 <MaskTexture UseMaskTexture="0"/>
+				</Image>
+				<Children>
+				 <Node Name="Color_VirtualListView" UserData="" Type="VirtualListView" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="1" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1240816573" HolderGUID="3231454400">
+					<Scale x="1" y="1"/>
+					<Position x="-39" y="-238"/>
+					<Anchor x="0" y="0"/>
+					<Size x="78" y="468"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					 <UINodeComponent Name="MaskComponent" Enable="1" Type="MaskComponent" CheckPerframe="1"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="0" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="78" y="468"/>
+					</Widget>
+					<VirtualListView BounceEnabled="1" InertiaScrollEnabled="1" LeftPadding="0" RightPadding="0" TopPadding="0" BottomPadding="0" SpaceX="0" SpaceY="0" Direction="1" OldDirection="1888586899" Layout="0" LineOrColumnCount="1"/>
+					<ProtectedChildren>
+					 <Node Name="BackGround" UserData="" Type="Image" Protected="1" LZ="-1" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="1" GUID="4240219613" HolderGUID="1240816573">
+						<Scale x="1" y="1"/>
+						<Position x="0" y="0"/>
+						<Anchor x="0" y="0"/>
+						<Size x="78" y="468"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="0" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="-1"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.009765625" y="0.009765625"/>
+						 <TListUVBR x="0.11914063" y="0.61523438"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="0"/>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children/>
+					 </Node>
+					 <Node Name="Container" UserData="" Type="Widget" Protected="1" LZ="-2" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="1" GUID="4224801220" HolderGUID="1240816573">
+						<Scale x="1" y="1"/>
+						<Position x="0" y="0"/>
+						<Anchor x="0" y="0"/>
+						<Size x="0" y="0"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Children/>
+					 </Node>
+					</ProtectedChildren>
+				 </Node>
+				 <Node Name="ColorChoose_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="4045382411" HolderGUID="3231454400" Checkable="0" Checked="0" ClickAnim="0" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="0"/>
+					<Anchor x="0" y="0"/>
+					<Size x="78" y="78"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="0.60392159" b="0.60392159"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="78" y="78"/>
+					</Widget>
+					<ClickAnimTrans x="0" y="0"/>
+					<ProtectedChildren>
+					 <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2806318221" HolderGUID="4045382411">
+						<Scale x="1" y="1"/>
+						<Position x="0" y="0"/>
+						<Anchor x="0" y="0"/>
+						<Size x="78" y="78"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="0.60392159" b="0.60392159"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="0"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.39453125" y="0.15625"/>
+						 <TListUVBR x="0.46484375" y="0.2265625"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="1">
+							<Texture Tag="0" Type="1" Name="Color.png" Path="Textures/Pinch.plist" Relative="1"/>
+						 </Textures>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children/>
+					 </Node>
+					</ProtectedChildren>
+					<Children>
+					 <Node Name="ColorChooseBtn_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1808824905" HolderGUID="4045382411">
+						<Scale x="1" y="1"/>
+						<Position x="39" y="39"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="27" y="20"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="0"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.23632813" y="0.36914063"/>
+						 <TListUVBR x="0.26269531" y="0.38867188"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="1">
+							<Texture Tag="0" Type="1" Name="Color_Choose.png" Path="Textures/Pinch.plist" Relative="1"/>
+						 </Textures>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children/>
+					 </Node>
+					</Children>
+				 </Node>
+				</Children>
+			 </Node>
+			 <Node Name="Color_SliderBgImage" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1951224196" HolderGUID="3225841791">
+				<Scale x="1" y="1"/>
+				<Position x="-176" y="270"/>
+				<Anchor x="0.5" y="0.5"/>
+				<Size x="10" y="530"/>
+				<Components>
+				 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+				</Components>
+				<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+				 <color a="1" r="1" g="1" b="1"/>
+				 <TouchAreaOffset x="0" y="0"/>
+				 <TouchAreaSize x="0" y="0"/>
+				</Widget>
+				<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+				 <CurrentTag CurrentTag="0"/>
+				 <UVTile x="1" y="1"/>
+				 <ImageType ImageType="0"/>
+				 <ImageFillMode ImageFillMode="0"/>
+				 <FillOrigin FillOrigin="0"/>
+				 <TListUVLT x="0.27539063" y="0.17578125"/>
+				 <TListUVBR x="0.28515625" y="0.75195313"/>
+				 <CameraLocation x="0" y="0" z="0"/>
+				 <CameraRotation x="0" y="0" z="0" w="1"/>
+				 <Textures Number="1">
+					<Texture Tag="0" Type="1" Name="Silder_Pole.png" Path="Textures/Pinch.plist" Relative="1"/>
+				 </Textures>
+				 <MaskTexture UseMaskTexture="0"/>
+				</Image>
+				<Children>
+				 <Node Name="Color_Slider" UserData="" Type="Slider" Protected="0" LZ="0" GZ="0" Rotation="90" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="169182670" HolderGUID="1951224196">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="0"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="520" y="30"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="520" y="30"/>
+					</Widget>
+					<Slider Percent="0" MaxPercent="100"/>
+					<ProtectedChildren>
+					 <Node Name="BarImage" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1125909770" HolderGUID="169182670">
+						<Scale x="1" y="1"/>
+						<Position x="0" y="0"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="520" y="30"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="-1"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="2"/>
+						 <ImageFillMode ImageFillMode="0"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.29492188" y="0.18554688"/>
+						 <TListUVBR x="0.3046875" y="0.76171875"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="0"/>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children/>
+					 </Node>
+					 <Node Name="ProgressBarImage" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2903663654" HolderGUID="169182670">
+						<Scale x="1" y="1"/>
+						<Position x="0" y="0"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="520" y="30"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="0" y="0"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="-1"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="1"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.29492188" y="0.18554688"/>
+						 <TListUVBR x="0.3046875" y="0.76171875"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="0"/>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children/>
+					 </Node>
+					 <Node Name="BallImage" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3658831024" HolderGUID="169182670">
+						<Scale x="1" y="1"/>
+						<Position x="-260" y="0"/>
+						<Anchor x="0.5" y="0.5"/>
+						<Size x="45" y="45"/>
+						<Components>
+						 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+						</Components>
+						<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+						 <color a="1" r="1" g="1" b="1"/>
+						 <TouchAreaOffset x="0" y="0"/>
+						 <TouchAreaSize x="45" y="45"/>
+						</Widget>
+						<Image FollowTextureSize="0" UseSequence="1" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+						 <CurrentTag CurrentTag="0"/>
+						 <UVTile x="1" y="1"/>
+						 <ImageType ImageType="0"/>
+						 <ImageFillMode ImageFillMode="2"/>
+						 <FillOrigin FillOrigin="0"/>
+						 <TListUVLT x="0.47460938" y="0.15625"/>
+						 <TListUVBR x="0.51464844" y="0.19628906"/>
+						 <CameraLocation x="0" y="0" z="0"/>
+						 <CameraRotation x="0" y="0" z="0" w="1"/>
+						 <Textures Number="1">
+							<Texture Tag="0" Type="1" Name="Sphere.png" Path="Textures/Pinch.plist" Relative="1"/>
+						 </Textures>
+						 <MaskTexture UseMaskTexture="0"/>
+						</Image>
+						<Children/>
+					 </Node>
+					</ProtectedChildren>
+					<Children/>
+				 </Node>
+				</Children>
+			 </Node>
+			</Children>
+		 </Node>
+		</Children>
+	 </Node>
+	 <Node Name="TopRight_Widget" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1338946437" HolderGUID="0">
+		<Scale x="1" y="1"/>
+		<Position x="750" y="0"/>
+		<Anchor x="0.5" y="0.5"/>
+		<Size x="0" y="0"/>
+		<Components>
+		 <UINodeComponent Name="WidgetAlignment" Enable="1" Type="WidgetAlignment" Align_HEdge="2" Align_VEdge="1" Align_LMargin="375" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+		</Components>
+		<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="1" Align_HEdge="2" Align_VEdge="1" Align_LMargin="375" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+		 <color a="1" r="1" g="1" b="1"/>
+		 <TouchAreaOffset x="0" y="0"/>
+		 <TouchAreaSize x="0" y="0"/>
+		</Widget>
+		<Children>
+		 <Node Name="TopRight_Widget_DQ" UserData="" Type="Widget" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="650081867" HolderGUID="1338946437">
+			<Scale x="1" y="1"/>
+			<Position x="0" y="0"/>
+			<Anchor x="0.5" y="0.5"/>
+			<Size x="0" y="0"/>
+			<Components>
+			 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+			</Components>
+			<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+			 <color a="1" r="1" g="1" b="1"/>
+			 <TouchAreaOffset x="0" y="0"/>
+			 <TouchAreaSize x="0" y="0"/>
+			</Widget>
+			<Children>
+			 <Node Name="Save_Button" UserData="" Type="Button" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="2850436650" HolderGUID="650081867" Checkable="0" Checked="0" ClickAnim="0" ClickAnimScale="1.1" EnableAudio="0" AudioPath="" AudioTriggerType="0">
+				<Scale x="1" y="1"/>
+				<Position x="-71.776001" y="60"/>
+				<Anchor x="0.5" y="0.5"/>
+				<Size x="116" y="60"/>
+				<Components>
+				 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+				</Components>
+				<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+				 <color a="1" r="1" g="1" b="1"/>
+				 <TouchAreaOffset x="0" y="0"/>
+				 <TouchAreaSize x="116" y="60"/>
+				</Widget>
+				<ClickAnimTrans x="0" y="0"/>
+				<ProtectedChildren>
+				 <Node Name="__ButtonImage(P)" UserData="" Type="Image" Protected="1" LZ="0" GZ="0" Rotation="0" Visible="1" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="1043656610" HolderGUID="2850436650">
+					<Scale x="1" y="1"/>
+					<Position x="0" y="0"/>
+					<Anchor x="0.5" y="0.5"/>
+					<Size x="116" y="60"/>
+					<Components>
+					 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+					</Components>
+					<Widget Enabled="1" TouchEnabled="0" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+					 <color a="1" r="1" g="1" b="1"/>
+					 <TouchAreaOffset x="0" y="0"/>
+					 <TouchAreaSize x="0" y="0"/>
+					</Widget>
+					<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+					 <CurrentTag CurrentTag="0"/>
+					 <UVTile x="1" y="1"/>
+					 <ImageType ImageType="0"/>
+					 <ImageFillMode ImageFillMode="0"/>
+					 <FillOrigin FillOrigin="0"/>
+					 <TListUVLT x="0.29492188" y="0.25585938"/>
+					 <TListUVBR x="0.40820313" y="0.31445313"/>
+					 <CameraLocation x="0" y="0" z="0"/>
+					 <CameraRotation x="0" y="0" z="0" w="1"/>
+					 <Textures Number="1">
+						<Texture Tag="0" Type="1" Name="Button_Save.png" Path="Textures/Pinch.plist" Relative="1"/>
+					 </Textures>
+					 <MaskTexture UseMaskTexture="0"/>
+					</Image>
+					<Children/>
+				 </Node>
+				</ProtectedChildren>
+				<Children/>
+			 </Node>
+			</Children>
+		 </Node>
+		</Children>
+	 </Node>
+	 <Node Name="Point_Image" UserData="" Type="Image" Protected="0" LZ="0" GZ="0" Rotation="0" Visible="0" NewLocalZ="0" NewGlobalZ="1" TellParentUseNewLocalz="0" GUID="3015210771" HolderGUID="0">
+		<Scale x="1" y="1"/>
+		<Position x="375" y="828"/>
+		<Anchor x="0.5" y="0.5"/>
+		<Size x="30" y="30"/>
+		<Components>
+		 <UINodeComponent Name="WidgetAlignment" Enable="0" Type="WidgetAlignment" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0" TargetID="0" AlignMode="0"/>
+		</Components>
+		<Widget Enabled="1" TouchEnabled="1" PassEvent="0" Bright="1" FocusEnabled="1" Align_Enable="0" Align_HEdge="0" Align_VEdge="0" Align_LMargin="0" Align_RMargin="0" Align_TMargin="0" Align_BMargin="0" Align_IsLPercent="0" Align_IsRPercent="0" Align_IsTPercent="0" Align_IsBPercent="0" Align_LMarginPercent="0" Align_RMarginPercent="0" Align_TMarginPercent="0" Align_BMarginPercent="0">
+		 <color a="0.74117649" r="0.85882354" g="0.85882354" b="0.85882354"/>
+		 <TouchAreaOffset x="0" y="0"/>
+		 <TouchAreaSize x="30" y="30"/>
+		</Widget>
+		<Image FollowTextureSize="0" UseSequence="0" Fps="30" ActualNum="1" Enable9Slice="0" FlipX="0" UseSubView="0" FillAmount="1" ReverseFill="0" CameraFOV="0.78539819" UseDefaultSetting="1" UseSubviewFromMainEditor="0" SubviewActorName="" ModelActorName="">
+		 <CurrentTag CurrentTag="0"/>
+		 <UVTile x="1" y="1"/>
+		 <ImageType ImageType="0"/>
+		 <ImageFillMode ImageFillMode="0"/>
+		 <FillOrigin FillOrigin="0"/>
+		 <TListUVLT x="0.47460938" y="0.15625"/>
+		 <TListUVBR x="0.51464844" y="0.19628906"/>
+		 <CameraLocation x="0" y="0" z="0"/>
+		 <CameraRotation x="0" y="0" z="0" w="1"/>
+		 <Textures Number="1">
+			<Texture Tag="0" Type="1" Name="Sphere.png" Path="Textures/Pinch.plist" Relative="1"/>
+		 </Textures>
+		 <MaskTexture UseMaskTexture="0"/>
+		</Image>
+		<Children/>
+	 </Node>
+	</Children>
+ </Node>
+</XUI>

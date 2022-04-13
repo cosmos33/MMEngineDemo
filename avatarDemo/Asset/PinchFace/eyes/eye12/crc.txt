@@ -1,0 +1,7 @@
+eyes/eye12/textures/eye12.pvr 802083181 43828
+eyes/eye12/textures/eye12.ktx 3546090795 43856
+eyes/eye12/textures/eye12_1.ktx 1425154896 87556
+eyes/eye12/textures/eye12_1.pvr 3155352967 43828
+eyes/eye12/eye12_eye12.mtins 1892387461 938
+eyes/eye12/eye12.ski 95188041 129
+eyes/eye12/eye12.mesh 2732611997 17111

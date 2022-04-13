@@ -1,0 +1,2 @@
+beard/beardUp3/beardUp3.pvr 2277969217 43828
+beard/beardUp3/beardUp3.ktx 3197242020 87516

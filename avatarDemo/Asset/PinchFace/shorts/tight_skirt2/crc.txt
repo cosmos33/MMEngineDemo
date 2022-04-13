@@ -1,0 +1,10 @@
+shorts/tight_skirt2/tight_skirt2.mesh 442419419 31155
+shorts/tight_skirt2/textures/tight_skirt2.pvr 1780018573 174900
+shorts/tight_skirt2/textures/tight_skirt2.ktx 504215571 174880
+shorts/tight_skirt2/low/tight_skirt2.mesh 1978676797 5835
+shorts/tight_skirt2/low/textures/tight_skirt2.pvr 2876337628 11060
+shorts/tight_skirt2/low/textures/tight_skirt2.ktx 1859356094 11032
+shorts/tight_skirt2/low/tight_skirt2.ski 2596984636 118
+shorts/tight_skirt2/low/tight_skirt2_tight_skirt2.mtins 821737828 661
+shorts/tight_skirt2/tight_skirt2.ski 2596984636 118
+shorts/tight_skirt2/tight_skirt2_tight_skirt2.mtins 821737828 661
